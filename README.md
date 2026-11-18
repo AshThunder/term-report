@@ -153,3 +153,7 @@ A school's printed report, not a dashboard: warm paper, ink, hairline rules, Sou
 ## Licence
 
 MIT, see [LICENSE](LICENSE). Fonts: Inter and Source Serif Pro under the SIL Open Font License 1.1 ([`assets/fonts/`](assets/fonts)). All schools, pupils, staff and results in `data/` are fictional.
+
+## Author
+
+Chris Gold, X: [@ChrisGold__](https://x.com/ChrisGold__), GitHub: [@AshThunder](https://github.com/AshThunder)
