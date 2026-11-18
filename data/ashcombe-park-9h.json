@@ -1,0 +1,1796 @@
+{
+  "school": {
+    "name": "Ashcombe Park School",
+    "monogram": "AP",
+    "address": [
+      "Ashcombe Road",
+      "Sheffield S7 2LQ",
+      "United Kingdom"
+    ],
+    "website": "https://ashcombepark.example",
+    "email": "office@ashcombepark.example",
+    "phone": "0114 496 0732",
+    "accent": "#2C4A7A",
+    "head": {
+      "name": "Mrs Helen Carrow",
+      "title": "Headteacher"
+    },
+    "portalUrl": "https://parents.ashcombepark.example/reports"
+  },
+  "settings": {
+    "locale": "en-GB",
+    "scale": {
+      "max": 100,
+      "decimals": 0,
+      "suffix": "%",
+      "bands": [
+        {
+          "min": 85,
+          "grade": "A",
+          "label": "Excellent"
+        },
+        {
+          "min": 70,
+          "grade": "B",
+          "label": "Good"
+        },
+        {
+          "min": 55,
+          "grade": "C",
+          "label": "Secure"
+        },
+        {
+          "min": 40,
+          "grade": "D",
+          "label": "Developing"
+        },
+        {
+          "min": 0,
+          "grade": "E",
+          "label": "Needs support"
+        }
+      ]
+    },
+    "effort": [
+      "Outstanding",
+      "Good",
+      "Inconsistent",
+      "A concern"
+    ]
+  },
+  "term": {
+    "name": "Autumn term 2026",
+    "start": "2026-09-02",
+    "end": "2026-12-18",
+    "reportDate": "2026-12-11",
+    "sessions": 146,
+    "nextTerm": "2027-01-05",
+    "dates": [
+      {
+        "date": "2027-01-05",
+        "label": "Spring term starts"
+      },
+      {
+        "date": "2027-01-21",
+        "label": "Year 9 parents' evening, 4 to 7 pm"
+      },
+      {
+        "date": "2027-02-12",
+        "label": "Options information evening"
+      }
+    ]
+  },
+  "class": {
+    "name": "9H",
+    "year": "Year 9",
+    "tutor": "Mr Owen Hale"
+  },
+  "subjects": [
+    {
+      "code": "ENG",
+      "name": "English",
+      "teacher": "Ms R. Okonkwo"
+    },
+    {
+      "code": "MAT",
+      "name": "Mathematics",
+      "teacher": "Mr D. Haworth"
+    },
+    {
+      "code": "SCI",
+      "name": "Science",
+      "teacher": "Dr P. Lindqvist"
+    },
+    {
+      "code": "HIS",
+      "name": "History",
+      "teacher": "Mr A. Brennan"
+    },
+    {
+      "code": "GEO",
+      "name": "Geography",
+      "teacher": "Mrs S. Patel"
+    },
+    {
+      "code": "SPA",
+      "name": "Spanish",
+      "teacher": "Sra. L. Moreno"
+    },
+    {
+      "code": "CMP",
+      "name": "Computing",
+      "teacher": "Mr J. Adeyemi"
+    },
+    {
+      "code": "ART",
+      "name": "Art and Design",
+      "teacher": "Ms C. Whitlock"
+    },
+    {
+      "code": "PE",
+      "name": "Physical Education",
+      "teacher": "Mr T. Garside"
+    }
+  ],
+  "awards": [
+    {
+      "code": "TOP",
+      "rule": "subject-top",
+      "title": "Subject Award",
+      "minScore": 88,
+      "description": "For the highest result in {subject} in {class} this term."
+    },
+    {
+      "code": "ATT",
+      "rule": "full-attendance",
+      "title": "Full Attendance",
+      "description": "For attending every session this term, on time."
+    },
+    {
+      "code": "IMP",
+      "rule": "most-improved",
+      "title": "Most Improved",
+      "description": "For the greatest rise in average result since last term."
+    },
+    {
+      "code": "BEST",
+      "rule": "top-overall",
+      "title": "Tutor Group Award",
+      "description": "For the highest average result across all subjects in {class}."
+    }
+  ],
+  "pupils": [
+    {
+      "id": "9H-01",
+      "name": "Amelia Hartley",
+      "firstName": "Amelia",
+      "guardian": {
+        "name": "Mr and Mrs Hartley",
+        "email": "amelia.family@example.com"
+      },
+      "attendance": {
+        "present": 146,
+        "absent": 0,
+        "late": 3
+      },
+      "previousAverage": 62.7,
+      "results": {
+        "ENG": {
+          "score": 66,
+          "effort": 1,
+          "comment": "Amelia's narrative writing has a clear structure; descriptive passages are starting to show ambition. Next step: review notes the evening after each lesson."
+        },
+        "MAT": {
+          "score": 67,
+          "effort": 2,
+          "comment": "Amelia is secure with ratio and proportion and is now working accurately on linear graphs. Next step: add more detail and evidence to extended answers."
+        },
+        "SCI": {
+          "score": 74,
+          "effort": 2,
+          "comment": "Amelia is working well in practicals and records results accurately. Next step: add more detail and evidence to extended answers."
+        },
+        "HIS": {
+          "score": 64,
+          "effort": 2,
+          "comment": "Amelia takes part thoughtfully in debates; written answers would benefit from a clearer conclusion. Next step: review notes the evening after each lesson."
+        },
+        "GEO": {
+          "score": 54,
+          "effort": 2,
+          "comment": "Amelia is often distracted in lessons, and classwork is incomplete as a result. Next step: complete every homework and ask for help early."
+        },
+        "SPA": {
+          "score": 61,
+          "effort": 2,
+          "comment": "Amelia understands spoken Spanish well and is building vocabulary steadily. Next step: check work carefully before handing it in."
+        },
+        "CMP": {
+          "score": 69,
+          "effort": 2,
+          "comment": "Amelia works carefully; next step is to plan programs before starting to type. Next step: check work carefully before handing it in."
+        },
+        "ART": {
+          "score": 56,
+          "effort": 2,
+          "comment": "Amelia researches artists well; final pieces would gain from more risk-taking. Next step: check work carefully before handing it in."
+        },
+        "PE": {
+          "score": 52,
+          "effort": 3,
+          "comment": "Amelia is capable but effort in lessons varies. Next step: attend the Thursday subject clinic until half term."
+        }
+      },
+      "tutorComment": "Amelia has settled well into Year 9 and is making steady progress across subjects, with Science the strongest. The next step is to bring the same focus to every lesson.",
+      "headComment": "A solid term with clear areas to build on.",
+      "targets": [
+        "Hand homework in on the day it is due",
+        "Ask for help in lessons as soon as something is unclear"
+      ]
+    },
+    {
+      "id": "9H-02",
+      "name": "Yusuf Rahman",
+      "firstName": "Yusuf",
+      "guardian": {
+        "name": "Ms Rahman",
+        "email": "yusuf.family@example.com"
+      },
+      "attendance": {
+        "present": 143,
+        "absent": 3,
+        "late": 3
+      },
+      "previousAverage": 84.3,
+      "results": {
+        "ENG": {
+          "score": 92,
+          "effort": 1,
+          "comment": "Yusuf writes with real control: the persuasive letter on school uniform was one of the strongest in the class. Next step: explain methods to others to deepen understanding."
+        },
+        "MAT": {
+          "score": 92,
+          "effort": 1,
+          "comment": "Yusuf handled the algebra unit with ease and explains methods clearly to others. Next step: take on the extension tasks in every lesson."
+        },
+        "SCI": {
+          "score": 93,
+          "effort": 2,
+          "comment": "Yusuf plans investigations carefully and the write-up on rates of reaction was excellent. Next step: explain methods to others to deepen understanding."
+        },
+        "HIS": {
+          "score": 82,
+          "effort": 1,
+          "comment": "Yusuf writes fluent, balanced answers and uses dates and evidence precisely. Next step: take on the extension tasks in every lesson."
+        },
+        "GEO": {
+          "score": 75,
+          "effort": 2,
+          "comment": "Yusuf has a sound understanding of weather and climate and works well in groups. Next step: add more detail and evidence to extended answers."
+        },
+        "SPA": {
+          "score": 84,
+          "effort": 1,
+          "comment": "Yusuf has a wide vocabulary and is already using the preterite accurately. Next step: explain methods to others to deepen understanding."
+        },
+        "CMP": {
+          "score": 82,
+          "effort": 1,
+          "comment": "Yusuf understands binary and logic gates thoroughly and works independently. Next step: aim for the challenge questions in every assessment."
+        },
+        "ART": {
+          "score": 75,
+          "effort": 2,
+          "comment": "Yusuf works with care and the still-life studies show developing control of tone. Next step: check work carefully before handing it in."
+        },
+        "PE": {
+          "score": 90,
+          "effort": 2,
+          "comment": "Yusuf trains with commitment and performed very well in cross-country. Next step: explain methods to others to deepen understanding."
+        }
+      },
+      "tutorComment": "Yusuf has had an excellent start to Year 9: hard-working, kind to others and always ready to contribute. Science has been a particular strength.",
+      "headComment": "A report to be proud of. Keep it up.",
+      "targets": [
+        "Read for twenty minutes every evening",
+        "Lead a group task in one lesson a week"
+      ]
+    },
+    {
+      "id": "9H-03",
+      "name": "Chloe Brennan-Ward",
+      "firstName": "Chloe",
+      "guardian": {
+        "name": "Mr Brennan-Ward",
+        "email": "chloe.family@example.com"
+      },
+      "attendance": {
+        "present": 137,
+        "absent": 9,
+        "late": 3
+      },
+      "previousAverage": 31.4,
+      "results": {
+        "ENG": {
+          "score": 27,
+          "effort": 3,
+          "comment": "Chloe has found extended writing difficult this term and does not always finish timed pieces. Next step: complete every homework and ask for help early."
+        },
+        "MAT": {
+          "score": 48,
+          "effort": 3,
+          "comment": "Chloe finds multi-step problems challenging and sometimes rushes the working. Next step: attend the Thursday subject clinic until half term."
+        },
+        "SCI": {
+          "score": 48,
+          "effort": 3,
+          "comment": "Chloe enjoys practical work but conclusions are often missing from write-ups. Next step: learn the key vocabulary list for each topic."
+        },
+        "HIS": {
+          "score": 41,
+          "effort": 3,
+          "comment": "Chloe remembers key events but needs to explain why they mattered, not only what happened. Next step: learn the key vocabulary list for each topic."
+        },
+        "GEO": {
+          "score": 27,
+          "effort": 4,
+          "comment": "Chloe finds data questions difficult and should practise reading climate graphs. Next step: learn the key vocabulary list for each topic."
+        },
+        "SPA": {
+          "score": 31,
+          "effort": 3,
+          "comment": "Chloe needs to learn vocabulary regularly: the weekly tests show this has slipped. Next step: learn the key vocabulary list for each topic."
+        },
+        "CMP": {
+          "score": 47,
+          "effort": 3,
+          "comment": "Chloe understands the theory but practical tasks are often unfinished. Next step: complete every homework and ask for help early."
+        },
+        "ART": {
+          "score": 43,
+          "effort": 3,
+          "comment": "Chloe has good ideas but final pieces are often rushed. Next step: complete every homework and ask for help early."
+        },
+        "PE": {
+          "score": 26,
+          "effort": 3,
+          "comment": "Chloe is capable but effort in lessons varies. Next step: attend the Thursday subject clinic until half term."
+        }
+      },
+      "tutorComment": "Chloe has had a mixed term. There are real positives, especially in Mathematics, but homework and organisation need attention so that progress is more even.",
+      "headComment": "We will work with you on the targets above next term.",
+      "targets": [
+        "Use the planner every day and check it with a parent each Sunday",
+        "Attend Tuesday homework club until half term"
+      ]
+    },
+    {
+      "id": "9H-04",
+      "name": "Oliver Nwosu",
+      "firstName": "Oliver",
+      "guardian": {
+        "name": "Dr Nwosu",
+        "email": "oliver.family@example.com"
+      },
+      "attendance": {
+        "present": 143,
+        "absent": 3,
+        "late": 3
+      },
+      "previousAverage": 88,
+      "results": {
+        "ENG": {
+          "score": 90,
+          "effort": 1,
+          "comment": "Oliver writes with real control: the persuasive letter on school uniform was one of the strongest in the class. Next step: aim for the challenge questions in every assessment."
+        },
+        "MAT": {
+          "score": 70,
+          "effort": 2,
+          "comment": "Oliver works steadily in lessons; written methods are well set out and easy to follow. Next step: review notes the evening after each lesson."
+        },
+        "SCI": {
+          "score": 83,
+          "effort": 1,
+          "comment": "Oliver plans investigations carefully and the write-up on rates of reaction was excellent. Next step: explain methods to others to deepen understanding."
+        },
+        "HIS": {
+          "score": 92,
+          "effort": 1,
+          "comment": "Oliver writes fluent, balanced answers and uses dates and evidence precisely. Next step: take on the extension tasks in every lesson."
+        },
+        "GEO": {
+          "score": 77,
+          "effort": 2,
+          "comment": "Oliver has a sound understanding of weather and climate and works well in groups. Next step: check work carefully before handing it in."
+        },
+        "SPA": {
+          "score": 94,
+          "effort": 1,
+          "comment": "Oliver has a wide vocabulary and is already using the preterite accurately. Next step: explain methods to others to deepen understanding."
+        },
+        "CMP": {
+          "score": 87,
+          "effort": 1,
+          "comment": "Oliver understands binary and logic gates thoroughly and works independently. Next step: explain methods to others to deepen understanding."
+        },
+        "ART": {
+          "score": 94,
+          "effort": 1,
+          "comment": "Oliver's observational drawing is excellent, and the sketchbook shows real experimentation. Next step: explain methods to others to deepen understanding."
+        },
+        "PE": {
+          "score": 94,
+          "effort": 1,
+          "comment": "Oliver trains with commitment and performed very well in cross-country. Next step: aim for the challenge questions in every assessment."
+        }
+      },
+      "tutorComment": "Oliver has had an excellent start to Year 9: hard-working, kind to others and always ready to contribute. Spanish has been a particular strength.",
+      "headComment": "A report to be proud of. Keep it up.",
+      "targets": [
+        "Read for twenty minutes every evening",
+        "Lead a group task in one lesson a week"
+      ]
+    },
+    {
+      "id": "9H-05",
+      "name": "Isla McKenzie",
+      "firstName": "Isla",
+      "guardian": {
+        "name": "Mr and Mrs McKenzie",
+        "email": "isla.family@example.com"
+      },
+      "attendance": {
+        "present": 146,
+        "absent": 0,
+        "late": 0
+      },
+      "previousAverage": 44.9,
+      "results": {
+        "ENG": {
+          "score": 52,
+          "effort": 4,
+          "comment": "Isla has found extended writing difficult this term and does not always finish timed pieces. Next step: learn the key vocabulary list for each topic."
+        },
+        "MAT": {
+          "score": 38,
+          "effort": 3,
+          "comment": "Isla finds multi-step problems challenging and sometimes rushes the working. Next step: complete every homework and ask for help early."
+        },
+        "SCI": {
+          "score": 40,
+          "effort": 3,
+          "comment": "Isla needs to review notes after lessons: recall of key terms was weak in the end-of-unit test. Next step: learn the key vocabulary list for each topic."
+        },
+        "HIS": {
+          "score": 51,
+          "effort": 3,
+          "comment": "Isla has not always completed homework, which has left gaps in knowledge. Next step: learn the key vocabulary list for each topic."
+        },
+        "GEO": {
+          "score": 43,
+          "effort": 3,
+          "comment": "Isla is often distracted in lessons, and classwork is incomplete as a result. Next step: attend the Thursday subject clinic until half term."
+        },
+        "SPA": {
+          "score": 43,
+          "effort": 3,
+          "comment": "Isla needs to learn vocabulary regularly: the weekly tests show this has slipped. Next step: complete every homework and ask for help early."
+        },
+        "CMP": {
+          "score": 65,
+          "effort": 2,
+          "comment": "Isla is making good progress with Python and can now use loops and conditions confidently. Next step: add more detail and evidence to extended answers."
+        },
+        "ART": {
+          "score": 35,
+          "effort": 3,
+          "comment": "Isla has good ideas but final pieces are often rushed. Next step: complete every homework and ask for help early."
+        },
+        "PE": {
+          "score": 40,
+          "effort": 4,
+          "comment": "Isla has missed kit on several occasions, which has limited participation. Next step: attend the Thursday subject clinic until half term."
+        }
+      },
+      "tutorComment": "Isla has had a mixed term. There are real positives, especially in Computing, but homework and organisation need attention so that progress is more even.",
+      "headComment": "We will work with you on the targets above next term.",
+      "targets": [
+        "Use the planner every day and check it with a parent each Sunday",
+        "Attend Tuesday homework club until half term"
+      ]
+    },
+    {
+      "id": "9H-06",
+      "name": "Kacper Nowak",
+      "firstName": "Kacper",
+      "guardian": {
+        "name": "Ms Nowak",
+        "email": "kacper.family@example.com"
+      },
+      "attendance": {
+        "present": 135,
+        "absent": 11,
+        "late": 2
+      },
+      "previousAverage": 55.6,
+      "results": {
+        "ENG": {
+          "score": 49,
+          "effort": 3,
+          "comment": "Kacper understands the texts studied but answers are often brief and need more evidence from the text. Next step: complete every homework and ask for help early."
+        },
+        "MAT": {
+          "score": 53,
+          "effort": 3,
+          "comment": "Kacper finds multi-step problems challenging and sometimes rushes the working. Next step: attend the Thursday subject clinic until half term."
+        },
+        "SCI": {
+          "score": 51,
+          "effort": 3,
+          "comment": "Kacper needs to review notes after lessons: recall of key terms was weak in the end-of-unit test. Next step: learn the key vocabulary list for each topic."
+        },
+        "HIS": {
+          "score": 44,
+          "effort": 3,
+          "comment": "Kacper has not always completed homework, which has left gaps in knowledge. Next step: attend the Thursday subject clinic until half term."
+        },
+        "GEO": {
+          "score": 60,
+          "effort": 2,
+          "comment": "Kacper interprets graphs accurately; extended answers need more place-specific detail. Next step: check work carefully before handing it in."
+        },
+        "SPA": {
+          "score": 52,
+          "effort": 3,
+          "comment": "Kacper needs to learn vocabulary regularly: the weekly tests show this has slipped. Next step: learn the key vocabulary list for each topic."
+        },
+        "CMP": {
+          "score": 60,
+          "effort": 2,
+          "comment": "Kacper is making good progress with Python and can now use loops and conditions confidently. Next step: review notes the evening after each lesson."
+        },
+        "ART": {
+          "score": 58,
+          "effort": 2,
+          "comment": "Kacper researches artists well; final pieces would gain from more risk-taking. Next step: review notes the evening after each lesson."
+        },
+        "PE": {
+          "score": 52,
+          "effort": 3,
+          "comment": "Kacper has missed kit on several occasions, which has limited participation. Next step: attend the Thursday subject clinic until half term."
+        }
+      },
+      "tutorComment": "Kacper has had a mixed term. There are real positives, especially in Geography, but homework and organisation need attention so that progress is more even.",
+      "headComment": "We will work with you on the targets above next term.",
+      "targets": [
+        "Use the planner every day and check it with a parent each Sunday",
+        "Attend Tuesday homework club until half term"
+      ]
+    },
+    {
+      "id": "9H-07",
+      "name": "Freya Lindsay",
+      "firstName": "Freya",
+      "guardian": {
+        "name": "Mr Lindsay",
+        "email": "freya.family@example.com"
+      },
+      "attendance": {
+        "present": 142,
+        "absent": 4,
+        "late": 0
+      },
+      "previousAverage": 66.5,
+      "results": {
+        "ENG": {
+          "score": 71,
+          "effort": 2,
+          "comment": "Freya's narrative writing has a clear structure; descriptive passages are starting to show ambition. Next step: review notes the evening after each lesson."
+        },
+        "MAT": {
+          "score": 57,
+          "effort": 2,
+          "comment": "Freya is secure with ratio and proportion and is now working accurately on linear graphs. Next step: check work carefully before handing it in."
+        },
+        "SCI": {
+          "score": 69,
+          "effort": 2,
+          "comment": "Freya is working well in practicals and records results accurately. Next step: review notes the evening after each lesson."
+        },
+        "HIS": {
+          "score": 62,
+          "effort": 2,
+          "comment": "Freya has a good knowledge of the period and is improving at comparing interpretations. Next step: check work carefully before handing it in."
+        },
+        "GEO": {
+          "score": 55,
+          "effort": 1,
+          "comment": "Freya has a sound understanding of weather and climate and works well in groups. Next step: add more detail and evidence to extended answers."
+        },
+        "SPA": {
+          "score": 90,
+          "effort": 1,
+          "comment": "Freya has a wide vocabulary and is already using the preterite accurately. Next step: take on the extension tasks in every lesson."
+        },
+        "CMP": {
+          "score": 79,
+          "effort": 2,
+          "comment": "Freya works carefully; next step is to plan programs before starting to type. Next step: add more detail and evidence to extended answers."
+        },
+        "ART": {
+          "score": 69,
+          "effort": 1,
+          "comment": "Freya researches artists well; final pieces would gain from more risk-taking. Next step: review notes the evening after each lesson."
+        },
+        "PE": {
+          "score": 61,
+          "effort": 2,
+          "comment": "Freya works well in a team; fitness scores have improved this term. Next step: add more detail and evidence to extended answers."
+        }
+      },
+      "tutorComment": "Freya has settled well into Year 9 and is making steady progress across subjects, with Spanish the strongest. The next step is to bring the same focus to every lesson.",
+      "headComment": "A solid term with clear areas to build on.",
+      "targets": [
+        "Hand homework in on the day it is due",
+        "Ask for help in lessons as soon as something is unclear"
+      ]
+    },
+    {
+      "id": "9H-08",
+      "name": "Arjun Mehta",
+      "firstName": "Arjun",
+      "guardian": {
+        "name": "Dr Mehta",
+        "email": "arjun.family@example.com"
+      },
+      "attendance": {
+        "present": 143,
+        "absent": 3,
+        "late": 3
+      },
+      "previousAverage": 63.6,
+      "results": {
+        "ENG": {
+          "score": 61,
+          "effort": 2,
+          "comment": "Arjun's narrative writing has a clear structure; descriptive passages are starting to show ambition. Next step: review notes the evening after each lesson."
+        },
+        "MAT": {
+          "score": 58,
+          "effort": 2,
+          "comment": "Arjun is secure with ratio and proportion and is now working accurately on linear graphs. Next step: add more detail and evidence to extended answers."
+        },
+        "SCI": {
+          "score": 56,
+          "effort": 2,
+          "comment": "Arjun understands the key ideas in the energy topic; explanations could use more scientific vocabulary. Next step: check work carefully before handing it in."
+        },
+        "HIS": {
+          "score": 58,
+          "effort": 2,
+          "comment": "Arjun has a good knowledge of the period and is improving at comparing interpretations. Next step: add more detail and evidence to extended answers."
+        },
+        "GEO": {
+          "score": 88,
+          "effort": 1,
+          "comment": "Arjun's fieldwork report on the River Don was detailed, well presented and carefully analysed. Next step: explain methods to others to deepen understanding."
+        },
+        "SPA": {
+          "score": 81,
+          "effort": 1,
+          "comment": "Arjun speaks with confidence and good pronunciation; the presentation on daily routine was excellent. Next step: take on the extension tasks in every lesson."
+        },
+        "CMP": {
+          "score": 56,
+          "effort": 2,
+          "comment": "Arjun is making good progress with Python and can now use loops and conditions confidently. Next step: add more detail and evidence to extended answers."
+        },
+        "ART": {
+          "score": 72,
+          "effort": 2,
+          "comment": "Arjun researches artists well; final pieces would gain from more risk-taking. Next step: review notes the evening after each lesson."
+        },
+        "PE": {
+          "score": 69,
+          "effort": 2,
+          "comment": "Arjun participates fully and is improving technique in athletics. Next step: review notes the evening after each lesson."
+        }
+      },
+      "tutorComment": "Arjun has settled well into Year 9 and is making steady progress across subjects, with Geography the strongest. The next step is to bring the same focus to every lesson.",
+      "headComment": "A solid term with clear areas to build on.",
+      "targets": [
+        "Hand homework in on the day it is due",
+        "Ask for help in lessons as soon as something is unclear"
+      ]
+    },
+    {
+      "id": "9H-09",
+      "name": "Grace Oduya",
+      "firstName": "Grace",
+      "guardian": {
+        "name": "Mr and Mrs Oduya",
+        "email": "grace.family@example.com"
+      },
+      "attendance": {
+        "present": 144,
+        "absent": 2,
+        "late": 0
+      },
+      "previousAverage": 77.9,
+      "results": {
+        "ENG": {
+          "score": 69,
+          "effort": 2,
+          "comment": "Grace reads with growing confidence and contributes well to class discussion of Of Mice and Men. Next step: add more detail and evidence to extended answers."
+        },
+        "MAT": {
+          "score": 74,
+          "effort": 2,
+          "comment": "Grace works steadily in lessons; written methods are well set out and easy to follow. Next step: check work carefully before handing it in."
+        },
+        "SCI": {
+          "score": 84,
+          "effort": 1,
+          "comment": "Grace has a strong grasp of cells and organisation and asks searching questions. Next step: aim for the challenge questions in every assessment."
+        },
+        "HIS": {
+          "score": 99,
+          "effort": 2,
+          "comment": "Grace builds well-supported arguments and the source analysis on the Industrial Revolution was outstanding. Next step: take on the extension tasks in every lesson."
+        },
+        "GEO": {
+          "score": 68,
+          "effort": 2,
+          "comment": "Grace interprets graphs accurately; extended answers need more place-specific detail. Next step: add more detail and evidence to extended answers."
+        },
+        "SPA": {
+          "score": 91,
+          "effort": 1,
+          "comment": "Grace has a wide vocabulary and is already using the preterite accurately. Next step: aim for the challenge questions in every assessment."
+        },
+        "CMP": {
+          "score": 92,
+          "effort": 1,
+          "comment": "Grace understands binary and logic gates thoroughly and works independently. Next step: aim for the challenge questions in every assessment."
+        },
+        "ART": {
+          "score": 77,
+          "effort": 2,
+          "comment": "Grace researches artists well; final pieces would gain from more risk-taking. Next step: review notes the evening after each lesson."
+        },
+        "PE": {
+          "score": 75,
+          "effort": 2,
+          "comment": "Grace works well in a team; fitness scores have improved this term. Next step: review notes the evening after each lesson."
+        }
+      },
+      "tutorComment": "Grace has had an excellent start to Year 9: hard-working, kind to others and always ready to contribute. History has been a particular strength.",
+      "headComment": "A report to be proud of. Keep it up.",
+      "targets": [
+        "Read for twenty minutes every evening",
+        "Lead a group task in one lesson a week"
+      ]
+    },
+    {
+      "id": "9H-10",
+      "name": "Leo Whitaker",
+      "firstName": "Leo",
+      "guardian": {
+        "name": "Ms Whitaker",
+        "email": "leo.family@example.com"
+      },
+      "attendance": {
+        "present": 146,
+        "absent": 0,
+        "late": 3
+      },
+      "previousAverage": 64.3,
+      "results": {
+        "ENG": {
+          "score": 69,
+          "effort": 2,
+          "comment": "Leo reads with growing confidence and contributes well to class discussion of Of Mice and Men. Next step: add more detail and evidence to extended answers."
+        },
+        "MAT": {
+          "score": 68,
+          "effort": 2,
+          "comment": "Leo works steadily in lessons; written methods are well set out and easy to follow. Next step: check work carefully before handing it in."
+        },
+        "SCI": {
+          "score": 69,
+          "effort": 2,
+          "comment": "Leo is working well in practicals and records results accurately. Next step: review notes the evening after each lesson."
+        },
+        "HIS": {
+          "score": 83,
+          "effort": 1,
+          "comment": "Leo writes fluent, balanced answers and uses dates and evidence precisely. Next step: explain methods to others to deepen understanding."
+        },
+        "GEO": {
+          "score": 65,
+          "effort": 2,
+          "comment": "Leo interprets graphs accurately; extended answers need more place-specific detail. Next step: check work carefully before handing it in."
+        },
+        "SPA": {
+          "score": 71,
+          "effort": 1,
+          "comment": "Leo understands spoken Spanish well and is building vocabulary steadily. Next step: review notes the evening after each lesson."
+        },
+        "CMP": {
+          "score": 61,
+          "effort": 2,
+          "comment": "Leo works carefully; next step is to plan programs before starting to type. Next step: check work carefully before handing it in."
+        },
+        "ART": {
+          "score": 68,
+          "effort": 3,
+          "comment": "Leo researches artists well; final pieces would gain from more risk-taking. Next step: add more detail and evidence to extended answers."
+        },
+        "PE": {
+          "score": 66,
+          "effort": 3,
+          "comment": "Leo participates fully and is improving technique in athletics. Next step: add more detail and evidence to extended answers."
+        }
+      },
+      "tutorComment": "Leo has settled well into Year 9 and is making steady progress across subjects, with History the strongest. The next step is to bring the same focus to every lesson.",
+      "headComment": "A solid term with clear areas to build on.",
+      "targets": [
+        "Hand homework in on the day it is due",
+        "Ask for help in lessons as soon as something is unclear"
+      ]
+    },
+    {
+      "id": "9H-11",
+      "name": "Sofia Rossi",
+      "firstName": "Sofia",
+      "guardian": {
+        "name": "Mr Rossi",
+        "email": "sofia.family@example.com"
+      },
+      "attendance": {
+        "present": 144,
+        "absent": 2,
+        "late": 3
+      },
+      "previousAverage": 41.3,
+      "results": {
+        "ENG": {
+          "score": 58,
+          "effort": 2,
+          "comment": "Sofia reads with growing confidence and contributes well to class discussion of Of Mice and Men. Next step: add more detail and evidence to extended answers."
+        },
+        "MAT": {
+          "score": 47,
+          "effort": 3,
+          "comment": "Sofia has gaps in number fluency that are slowing progress with algebra. Next step: learn the key vocabulary list for each topic."
+        },
+        "SCI": {
+          "score": 58,
+          "effort": 2,
+          "comment": "Sofia understands the key ideas in the energy topic; explanations could use more scientific vocabulary. Next step: review notes the evening after each lesson."
+        },
+        "HIS": {
+          "score": 51,
+          "effort": 3,
+          "comment": "Sofia has not always completed homework, which has left gaps in knowledge. Next step: attend the Thursday subject clinic until half term."
+        },
+        "GEO": {
+          "score": 45,
+          "effort": 3,
+          "comment": "Sofia is often distracted in lessons, and classwork is incomplete as a result. Next step: learn the key vocabulary list for each topic."
+        },
+        "SPA": {
+          "score": 39,
+          "effort": 3,
+          "comment": "Sofia is reluctant to speak in class, though written comprehension is improving. Next step: complete every homework and ask for help early."
+        },
+        "CMP": {
+          "score": 48,
+          "effort": 3,
+          "comment": "Sofia finds programming frustrating at times and gives up quickly on errors. Next step: complete every homework and ask for help early."
+        },
+        "ART": {
+          "score": 53,
+          "effort": 2,
+          "comment": "Sofia has good ideas but final pieces are often rushed. Next step: learn the key vocabulary list for each topic."
+        },
+        "PE": {
+          "score": 37,
+          "effort": 3,
+          "comment": "Sofia has missed kit on several occasions, which has limited participation. Next step: complete every homework and ask for help early."
+        }
+      },
+      "tutorComment": "Sofia has had a mixed term. There are real positives, especially in English, but homework and organisation need attention so that progress is more even.",
+      "headComment": "We will work with you on the targets above next term.",
+      "targets": [
+        "Use the planner every day and check it with a parent each Sunday",
+        "Attend Tuesday homework club until half term"
+      ]
+    },
+    {
+      "id": "9H-12",
+      "name": "Harvey Clegg",
+      "firstName": "Harvey",
+      "guardian": {
+        "name": "Dr Clegg",
+        "email": "harvey.family@example.com"
+      },
+      "attendance": {
+        "present": 146,
+        "absent": 0,
+        "late": 2
+      },
+      "previousAverage": 55.8,
+      "results": {
+        "ENG": {
+          "score": 83,
+          "effort": 1,
+          "comment": "Harvey writes with real control: the persuasive letter on school uniform was one of the strongest in the class. Next step: aim for the challenge questions in every assessment."
+        },
+        "MAT": {
+          "score": 70,
+          "effort": 2,
+          "comment": "Harvey works steadily in lessons; written methods are well set out and easy to follow. Next step: add more detail and evidence to extended answers."
+        },
+        "SCI": {
+          "score": 61,
+          "effort": 2,
+          "comment": "Harvey understands the key ideas in the energy topic; explanations could use more scientific vocabulary. Next step: review notes the evening after each lesson."
+        },
+        "HIS": {
+          "score": 48,
+          "effort": 3,
+          "comment": "Harvey has not always completed homework, which has left gaps in knowledge. Next step: learn the key vocabulary list for each topic."
+        },
+        "GEO": {
+          "score": 48,
+          "effort": 3,
+          "comment": "Harvey finds data questions difficult and should practise reading climate graphs. Next step: learn the key vocabulary list for each topic."
+        },
+        "SPA": {
+          "score": 60,
+          "effort": 2,
+          "comment": "Harvey understands spoken Spanish well and is building vocabulary steadily. Next step: add more detail and evidence to extended answers."
+        },
+        "CMP": {
+          "score": 73,
+          "effort": 2,
+          "comment": "Harvey works carefully; next step is to plan programs before starting to type. Next step: check work carefully before handing it in."
+        },
+        "ART": {
+          "score": 55,
+          "effort": 2,
+          "comment": "Harvey works with care and the still-life studies show developing control of tone. Next step: check work carefully before handing it in."
+        },
+        "PE": {
+          "score": 47,
+          "effort": 3,
+          "comment": "Harvey is capable but effort in lessons varies. Next step: complete every homework and ask for help early."
+        }
+      },
+      "tutorComment": "Harvey has settled well into Year 9 and is making steady progress across subjects, with English the strongest. The next step is to bring the same focus to every lesson.",
+      "headComment": "A solid term with clear areas to build on.",
+      "targets": [
+        "Hand homework in on the day it is due",
+        "Ask for help in lessons as soon as something is unclear"
+      ]
+    },
+    {
+      "id": "9H-13",
+      "name": "Zara Hussain",
+      "firstName": "Zara",
+      "guardian": {
+        "name": "Mr and Mrs Hussain",
+        "email": "zara.family@example.com"
+      },
+      "attendance": {
+        "present": 143,
+        "absent": 3,
+        "late": 0
+      },
+      "previousAverage": 67.6,
+      "results": {
+        "ENG": {
+          "score": 74,
+          "effort": 2,
+          "comment": "Zara's narrative writing has a clear structure; descriptive passages are starting to show ambition. Next step: check work carefully before handing it in."
+        },
+        "MAT": {
+          "score": 82,
+          "effort": 1,
+          "comment": "Zara scored highly on the simultaneous equations assessment and enjoys the extension problems. Next step: take on the extension tasks in every lesson."
+        },
+        "SCI": {
+          "score": 62,
+          "effort": 2,
+          "comment": "Zara is working well in practicals and records results accurately. Next step: add more detail and evidence to extended answers."
+        },
+        "HIS": {
+          "score": 83,
+          "effort": 1,
+          "comment": "Zara builds well-supported arguments and the source analysis on the Industrial Revolution was outstanding. Next step: take on the extension tasks in every lesson."
+        },
+        "GEO": {
+          "score": 65,
+          "effort": 2,
+          "comment": "Zara interprets graphs accurately; extended answers need more place-specific detail. Next step: review notes the evening after each lesson."
+        },
+        "SPA": {
+          "score": 80,
+          "effort": 1,
+          "comment": "Zara speaks with confidence and good pronunciation; the presentation on daily routine was excellent. Next step: take on the extension tasks in every lesson."
+        },
+        "CMP": {
+          "score": 75,
+          "effort": 3,
+          "comment": "Zara works carefully; next step is to plan programs before starting to type. Next step: add more detail and evidence to extended answers."
+        },
+        "ART": {
+          "score": 66,
+          "effort": 1,
+          "comment": "Zara works with care and the still-life studies show developing control of tone. Next step: check work carefully before handing it in."
+        },
+        "PE": {
+          "score": 72,
+          "effort": 1,
+          "comment": "Zara works well in a team; fitness scores have improved this term. Next step: review notes the evening after each lesson."
+        }
+      },
+      "tutorComment": "Zara has settled well into Year 9 and is making steady progress across subjects, with History the strongest. The next step is to bring the same focus to every lesson.",
+      "headComment": "A solid term with clear areas to build on.",
+      "targets": [
+        "Hand homework in on the day it is due",
+        "Ask for help in lessons as soon as something is unclear"
+      ]
+    },
+    {
+      "id": "9H-14",
+      "name": "Ethan Booth",
+      "firstName": "Ethan",
+      "guardian": {
+        "name": "Ms Booth",
+        "email": "ethan.family@example.com"
+      },
+      "attendance": {
+        "present": 142,
+        "absent": 4,
+        "late": 0
+      },
+      "previousAverage": 41.7,
+      "results": {
+        "ENG": {
+          "score": 59,
+          "effort": 3,
+          "comment": "Ethan reads with growing confidence and contributes well to class discussion of Of Mice and Men. Next step: add more detail and evidence to extended answers."
+        },
+        "MAT": {
+          "score": 59,
+          "effort": 2,
+          "comment": "Ethan works steadily in lessons; written methods are well set out and easy to follow. Next step: add more detail and evidence to extended answers."
+        },
+        "SCI": {
+          "score": 40,
+          "effort": 2,
+          "comment": "Ethan enjoys practical work but conclusions are often missing from write-ups. Next step: complete every homework and ask for help early."
+        },
+        "HIS": {
+          "score": 57,
+          "effort": 2,
+          "comment": "Ethan takes part thoughtfully in debates; written answers would benefit from a clearer conclusion. Next step: review notes the evening after each lesson."
+        },
+        "GEO": {
+          "score": 38,
+          "effort": 4,
+          "comment": "Ethan is often distracted in lessons, and classwork is incomplete as a result. Next step: learn the key vocabulary list for each topic."
+        },
+        "SPA": {
+          "score": 54,
+          "effort": 3,
+          "comment": "Ethan needs to learn vocabulary regularly: the weekly tests show this has slipped. Next step: complete every homework and ask for help early."
+        },
+        "CMP": {
+          "score": 43,
+          "effort": 3,
+          "comment": "Ethan finds programming frustrating at times and gives up quickly on errors. Next step: learn the key vocabulary list for each topic."
+        },
+        "ART": {
+          "score": 52,
+          "effort": 4,
+          "comment": "Ethan has good ideas but final pieces are often rushed. Next step: learn the key vocabulary list for each topic."
+        },
+        "PE": {
+          "score": 57,
+          "effort": 2,
+          "comment": "Ethan participates fully and is improving technique in athletics. Next step: review notes the evening after each lesson."
+        }
+      },
+      "tutorComment": "Ethan has had a mixed term. There are real positives, especially in English, but homework and organisation need attention so that progress is more even.",
+      "headComment": "We will work with you on the targets above next term.",
+      "targets": [
+        "Use the planner every day and check it with a parent each Sunday",
+        "Attend Tuesday homework club until half term"
+      ]
+    },
+    {
+      "id": "9H-15",
+      "name": "Maya Kowalczyk",
+      "firstName": "Maya",
+      "guardian": {
+        "name": "Mr Kowalczyk",
+        "email": "maya.family@example.com"
+      },
+      "attendance": {
+        "present": 141,
+        "absent": 5,
+        "late": 3
+      },
+      "previousAverage": 69.9,
+      "results": {
+        "ENG": {
+          "score": 77,
+          "effort": 3,
+          "comment": "Maya reads with growing confidence and contributes well to class discussion of Of Mice and Men. Next step: review notes the evening after each lesson."
+        },
+        "MAT": {
+          "score": 60,
+          "effort": 2,
+          "comment": "Maya works steadily in lessons; written methods are well set out and easy to follow. Next step: check work carefully before handing it in."
+        },
+        "SCI": {
+          "score": 67,
+          "effort": 2,
+          "comment": "Maya is working well in practicals and records results accurately. Next step: review notes the evening after each lesson."
+        },
+        "HIS": {
+          "score": 73,
+          "effort": 2,
+          "comment": "Maya takes part thoughtfully in debates; written answers would benefit from a clearer conclusion. Next step: review notes the evening after each lesson."
+        },
+        "GEO": {
+          "score": 61,
+          "effort": 2,
+          "comment": "Maya interprets graphs accurately; extended answers need more place-specific detail. Next step: review notes the evening after each lesson."
+        },
+        "SPA": {
+          "score": 63,
+          "effort": 2,
+          "comment": "Maya writes accurate short paragraphs; speaking will improve with more risk-taking in class. Next step: add more detail and evidence to extended answers."
+        },
+        "CMP": {
+          "score": 83,
+          "effort": 2,
+          "comment": "Maya understands binary and logic gates thoroughly and works independently. Next step: aim for the challenge questions in every assessment."
+        },
+        "ART": {
+          "score": 69,
+          "effort": 2,
+          "comment": "Maya works with care and the still-life studies show developing control of tone. Next step: add more detail and evidence to extended answers."
+        },
+        "PE": {
+          "score": 85,
+          "effort": 1,
+          "comment": "Maya trains with commitment and performed very well in cross-country. Next step: explain methods to others to deepen understanding."
+        }
+      },
+      "tutorComment": "Maya has settled well into Year 9 and is making steady progress across subjects, with Physical Education the strongest. The next step is to bring the same focus to every lesson.",
+      "headComment": "A solid term with clear areas to build on.",
+      "targets": [
+        "Hand homework in on the day it is due",
+        "Ask for help in lessons as soon as something is unclear"
+      ]
+    },
+    {
+      "id": "9H-16",
+      "name": "Noah Achterberg",
+      "firstName": "Noah",
+      "guardian": {
+        "name": "Dr Achterberg",
+        "email": "noah.family@example.com"
+      },
+      "attendance": {
+        "present": 143,
+        "absent": 3,
+        "late": 3
+      },
+      "previousAverage": 45.6,
+      "results": {
+        "ENG": {
+          "score": 45,
+          "effort": 3,
+          "comment": "Noah has found extended writing difficult this term and does not always finish timed pieces. Next step: complete every homework and ask for help early."
+        },
+        "MAT": {
+          "score": 47,
+          "effort": 3,
+          "comment": "Noah finds multi-step problems challenging and sometimes rushes the working. Next step: complete every homework and ask for help early."
+        },
+        "SCI": {
+          "score": 41,
+          "effort": 3,
+          "comment": "Noah needs to review notes after lessons: recall of key terms was weak in the end-of-unit test. Next step: learn the key vocabulary list for each topic."
+        },
+        "HIS": {
+          "score": 41,
+          "effort": 4,
+          "comment": "Noah has not always completed homework, which has left gaps in knowledge. Next step: complete every homework and ask for help early."
+        },
+        "GEO": {
+          "score": 43,
+          "effort": 3,
+          "comment": "Noah is often distracted in lessons, and classwork is incomplete as a result. Next step: complete every homework and ask for help early."
+        },
+        "SPA": {
+          "score": 52,
+          "effort": 3,
+          "comment": "Noah is reluctant to speak in class, though written comprehension is improving. Next step: complete every homework and ask for help early."
+        },
+        "CMP": {
+          "score": 52,
+          "effort": 3,
+          "comment": "Noah understands the theory but practical tasks are often unfinished. Next step: learn the key vocabulary list for each topic."
+        },
+        "ART": {
+          "score": 47,
+          "effort": 3,
+          "comment": "Noah has good ideas but final pieces are often rushed. Next step: complete every homework and ask for help early."
+        },
+        "PE": {
+          "score": 49,
+          "effort": 3,
+          "comment": "Noah has missed kit on several occasions, which has limited participation. Next step: attend the Thursday subject clinic until half term."
+        }
+      },
+      "tutorComment": "Noah has had a mixed term. There are real positives, especially in Spanish, but homework and organisation need attention so that progress is more even.",
+      "headComment": "We will work with you on the targets above next term.",
+      "targets": [
+        "Use the planner every day and check it with a parent each Sunday",
+        "Attend Tuesday homework club until half term"
+      ]
+    },
+    {
+      "id": "9H-17",
+      "name": "Ruby Sinclair",
+      "firstName": "Ruby",
+      "guardian": {
+        "name": "Mr and Mrs Sinclair",
+        "email": "ruby.family@example.com"
+      },
+      "attendance": {
+        "present": 146,
+        "absent": 0,
+        "late": 3
+      },
+      "previousAverage": 69.2,
+      "results": {
+        "ENG": {
+          "score": 84,
+          "effort": 1,
+          "comment": "Ruby writes with real control: the persuasive letter on school uniform was one of the strongest in the class. Next step: aim for the challenge questions in every assessment."
+        },
+        "MAT": {
+          "score": 73,
+          "effort": 2,
+          "comment": "Ruby works steadily in lessons; written methods are well set out and easy to follow. Next step: review notes the evening after each lesson."
+        },
+        "SCI": {
+          "score": 80,
+          "effort": 1,
+          "comment": "Ruby has a strong grasp of cells and organisation and asks searching questions. Next step: explain methods to others to deepen understanding."
+        },
+        "HIS": {
+          "score": 69,
+          "effort": 2,
+          "comment": "Ruby takes part thoughtfully in debates; written answers would benefit from a clearer conclusion. Next step: review notes the evening after each lesson."
+        },
+        "GEO": {
+          "score": 77,
+          "effort": 2,
+          "comment": "Ruby interprets graphs accurately; extended answers need more place-specific detail. Next step: add more detail and evidence to extended answers."
+        },
+        "SPA": {
+          "score": 64,
+          "effort": 2,
+          "comment": "Ruby understands spoken Spanish well and is building vocabulary steadily. Next step: review notes the evening after each lesson."
+        },
+        "CMP": {
+          "score": 75,
+          "effort": 2,
+          "comment": "Ruby works carefully; next step is to plan programs before starting to type. Next step: add more detail and evidence to extended answers."
+        },
+        "ART": {
+          "score": 77,
+          "effort": 2,
+          "comment": "Ruby works with care and the still-life studies show developing control of tone. Next step: add more detail and evidence to extended answers."
+        },
+        "PE": {
+          "score": 69,
+          "effort": 2,
+          "comment": "Ruby participates fully and is improving technique in athletics. Next step: check work carefully before handing it in."
+        }
+      },
+      "tutorComment": "Ruby has settled well into Year 9 and is making steady progress across subjects, with English the strongest. The next step is to bring the same focus to every lesson.",
+      "headComment": "A solid term with clear areas to build on.",
+      "targets": [
+        "Hand homework in on the day it is due",
+        "Ask for help in lessons as soon as something is unclear"
+      ]
+    },
+    {
+      "id": "9H-18",
+      "name": "Tobias Fenwick",
+      "firstName": "Tobias",
+      "guardian": {
+        "name": "Ms Fenwick",
+        "email": "tobias.family@example.com"
+      },
+      "attendance": {
+        "present": 145,
+        "absent": 1,
+        "late": 1
+      },
+      "previousAverage": 52.9,
+      "results": {
+        "ENG": {
+          "score": 51,
+          "effort": 3,
+          "comment": "Tobias has found extended writing difficult this term and does not always finish timed pieces. Next step: learn the key vocabulary list for each topic."
+        },
+        "MAT": {
+          "score": 53,
+          "effort": 3,
+          "comment": "Tobias has gaps in number fluency that are slowing progress with algebra. Next step: complete every homework and ask for help early."
+        },
+        "SCI": {
+          "score": 47,
+          "effort": 3,
+          "comment": "Tobias needs to review notes after lessons: recall of key terms was weak in the end-of-unit test. Next step: learn the key vocabulary list for each topic."
+        },
+        "HIS": {
+          "score": 48,
+          "effort": 3,
+          "comment": "Tobias has not always completed homework, which has left gaps in knowledge. Next step: learn the key vocabulary list for each topic."
+        },
+        "GEO": {
+          "score": 40,
+          "effort": 3,
+          "comment": "Tobias finds data questions difficult and should practise reading climate graphs. Next step: attend the Thursday subject clinic until half term."
+        },
+        "SPA": {
+          "score": 55,
+          "effort": 2,
+          "comment": "Tobias writes accurate short paragraphs; speaking will improve with more risk-taking in class. Next step: add more detail and evidence to extended answers."
+        },
+        "CMP": {
+          "score": 54,
+          "effort": 3,
+          "comment": "Tobias understands the theory but practical tasks are often unfinished. Next step: attend the Thursday subject clinic until half term."
+        },
+        "ART": {
+          "score": 50,
+          "effort": 3,
+          "comment": "Tobias needs to bring the sketchbook to every lesson and complete homework tasks. Next step: complete every homework and ask for help early."
+        },
+        "PE": {
+          "score": 57,
+          "effort": 2,
+          "comment": "Tobias works well in a team; fitness scores have improved this term. Next step: add more detail and evidence to extended answers."
+        }
+      },
+      "tutorComment": "Tobias has had a mixed term. There are real positives, especially in Physical Education, but homework and organisation need attention so that progress is more even.",
+      "headComment": "We will work with you on the targets above next term.",
+      "targets": [
+        "Use the planner every day and check it with a parent each Sunday",
+        "Attend Tuesday homework club until half term"
+      ]
+    },
+    {
+      "id": "9H-19",
+      "name": "Aisha Bello",
+      "firstName": "Aisha",
+      "guardian": {
+        "name": "Mr Bello",
+        "email": "aisha.family@example.com"
+      },
+      "attendance": {
+        "present": 146,
+        "absent": 0,
+        "late": 0
+      },
+      "previousAverage": 57.7,
+      "results": {
+        "ENG": {
+          "score": 55,
+          "effort": 2,
+          "comment": "Aisha's narrative writing has a clear structure; descriptive passages are starting to show ambition. Next step: review notes the evening after each lesson."
+        },
+        "MAT": {
+          "score": 41,
+          "effort": 2,
+          "comment": "Aisha finds multi-step problems challenging and sometimes rushes the working. Next step: learn the key vocabulary list for each topic."
+        },
+        "SCI": {
+          "score": 52,
+          "effort": 2,
+          "comment": "Aisha needs to review notes after lessons: recall of key terms was weak in the end-of-unit test. Next step: learn the key vocabulary list for each topic."
+        },
+        "HIS": {
+          "score": 58,
+          "effort": 2,
+          "comment": "Aisha takes part thoughtfully in debates; written answers would benefit from a clearer conclusion. Next step: review notes the evening after each lesson."
+        },
+        "GEO": {
+          "score": 58,
+          "effort": 2,
+          "comment": "Aisha interprets graphs accurately; extended answers need more place-specific detail. Next step: review notes the evening after each lesson."
+        },
+        "SPA": {
+          "score": 56,
+          "effort": 2,
+          "comment": "Aisha understands spoken Spanish well and is building vocabulary steadily. Next step: check work carefully before handing it in."
+        },
+        "CMP": {
+          "score": 71,
+          "effort": 2,
+          "comment": "Aisha works carefully; next step is to plan programs before starting to type. Next step: review notes the evening after each lesson."
+        },
+        "ART": {
+          "score": 58,
+          "effort": 2,
+          "comment": "Aisha researches artists well; final pieces would gain from more risk-taking. Next step: check work carefully before handing it in."
+        },
+        "PE": {
+          "score": 49,
+          "effort": 3,
+          "comment": "Aisha is capable but effort in lessons varies. Next step: attend the Thursday subject clinic until half term."
+        }
+      },
+      "tutorComment": "Aisha has settled well into Year 9 and is making steady progress across subjects, with Computing the strongest. The next step is to bring the same focus to every lesson.",
+      "headComment": "A solid term with clear areas to build on.",
+      "targets": [
+        "Hand homework in on the day it is due",
+        "Ask for help in lessons as soon as something is unclear"
+      ]
+    },
+    {
+      "id": "9H-20",
+      "name": "Finley Marsh",
+      "firstName": "Finley",
+      "guardian": {
+        "name": "Dr Marsh",
+        "email": "finley.family@example.com"
+      },
+      "attendance": {
+        "present": 142,
+        "absent": 4,
+        "late": 2
+      },
+      "previousAverage": 77.8,
+      "results": {
+        "ENG": {
+          "score": 69,
+          "effort": 2,
+          "comment": "Finley reads with growing confidence and contributes well to class discussion of Of Mice and Men. Next step: review notes the evening after each lesson."
+        },
+        "MAT": {
+          "score": 89,
+          "effort": 1,
+          "comment": "Finley handled the algebra unit with ease and explains methods clearly to others. Next step: take on the extension tasks in every lesson."
+        },
+        "SCI": {
+          "score": 85,
+          "effort": 1,
+          "comment": "Finley plans investigations carefully and the write-up on rates of reaction was excellent. Next step: explain methods to others to deepen understanding."
+        },
+        "HIS": {
+          "score": 67,
+          "effort": 2,
+          "comment": "Finley takes part thoughtfully in debates; written answers would benefit from a clearer conclusion. Next step: add more detail and evidence to extended answers."
+        },
+        "GEO": {
+          "score": 73,
+          "effort": 2,
+          "comment": "Finley interprets graphs accurately; extended answers need more place-specific detail. Next step: check work carefully before handing it in."
+        },
+        "SPA": {
+          "score": 89,
+          "effort": 1,
+          "comment": "Finley speaks with confidence and good pronunciation; the presentation on daily routine was excellent. Next step: aim for the challenge questions in every assessment."
+        },
+        "CMP": {
+          "score": 81,
+          "effort": 1,
+          "comment": "Finley understands binary and logic gates thoroughly and works independently. Next step: take on the extension tasks in every lesson."
+        },
+        "ART": {
+          "score": 90,
+          "effort": 1,
+          "comment": "Finley produced an outstanding lino print in the printmaking unit. Next step: aim for the challenge questions in every assessment."
+        },
+        "PE": {
+          "score": 79,
+          "effort": 2,
+          "comment": "Finley participates fully and is improving technique in athletics. Next step: review notes the evening after each lesson."
+        }
+      },
+      "tutorComment": "Finley has had an excellent start to Year 9: hard-working, kind to others and always ready to contribute. Art and Design has been a particular strength.",
+      "headComment": "A report to be proud of. Keep it up.",
+      "targets": [
+        "Read for twenty minutes every evening",
+        "Lead a group task in one lesson a week"
+      ]
+    },
+    {
+      "id": "9H-21",
+      "name": "Evie Thornton",
+      "firstName": "Evie",
+      "guardian": {
+        "name": "Mr and Mrs Thornton",
+        "email": "evie.family@example.com"
+      },
+      "attendance": {
+        "present": 146,
+        "absent": 0,
+        "late": 0
+      },
+      "previousAverage": 77.4,
+      "results": {
+        "ENG": {
+          "score": 70,
+          "effort": 2,
+          "comment": "Evie's narrative writing has a clear structure; descriptive passages are starting to show ambition. Next step: add more detail and evidence to extended answers."
+        },
+        "MAT": {
+          "score": 83,
+          "effort": 1,
+          "comment": "Evie handled the algebra unit with ease and explains methods clearly to others. Next step: aim for the challenge questions in every assessment."
+        },
+        "SCI": {
+          "score": 76,
+          "effort": 1,
+          "comment": "Evie is working well in practicals and records results accurately. Next step: check work carefully before handing it in."
+        },
+        "HIS": {
+          "score": 82,
+          "effort": 1,
+          "comment": "Evie builds well-supported arguments and the source analysis on the Industrial Revolution was outstanding. Next step: aim for the challenge questions in every assessment."
+        },
+        "GEO": {
+          "score": 83,
+          "effort": 1,
+          "comment": "Evie's fieldwork report on the River Don was detailed, well presented and carefully analysed. Next step: take on the extension tasks in every lesson."
+        },
+        "SPA": {
+          "score": 86,
+          "effort": 1,
+          "comment": "Evie speaks with confidence and good pronunciation; the presentation on daily routine was excellent. Next step: explain methods to others to deepen understanding."
+        },
+        "CMP": {
+          "score": 78,
+          "effort": 2,
+          "comment": "Evie works carefully; next step is to plan programs before starting to type. Next step: review notes the evening after each lesson."
+        },
+        "ART": {
+          "score": 83,
+          "effort": 1,
+          "comment": "Evie produced an outstanding lino print in the printmaking unit. Next step: aim for the challenge questions in every assessment."
+        },
+        "PE": {
+          "score": 95,
+          "effort": 1,
+          "comment": "Evie is a leader in team activities and showed excellent skill in netball and football. Next step: take on the extension tasks in every lesson."
+        }
+      },
+      "tutorComment": "Evie has had an excellent start to Year 9: hard-working, kind to others and always ready to contribute. Physical Education has been a particular strength.",
+      "headComment": "A report to be proud of. Keep it up.",
+      "targets": [
+        "Read for twenty minutes every evening",
+        "Lead a group task in one lesson a week"
+      ]
+    },
+    {
+      "id": "9H-22",
+      "name": "Samuel Osei",
+      "firstName": "Samuel",
+      "guardian": {
+        "name": "Ms Osei",
+        "email": "samuel.family@example.com"
+      },
+      "attendance": {
+        "present": 145,
+        "absent": 1,
+        "late": 2
+      },
+      "previousAverage": 72.2,
+      "results": {
+        "ENG": {
+          "score": 65,
+          "effort": 2,
+          "comment": "Samuel's narrative writing has a clear structure; descriptive passages are starting to show ambition. Next step: review notes the evening after each lesson."
+        },
+        "MAT": {
+          "score": 86,
+          "effort": 1,
+          "comment": "Samuel scored highly on the simultaneous equations assessment and enjoys the extension problems. Next step: explain methods to others to deepen understanding."
+        },
+        "SCI": {
+          "score": 84,
+          "effort": 1,
+          "comment": "Samuel has a strong grasp of cells and organisation and asks searching questions. Next step: aim for the challenge questions in every assessment."
+        },
+        "HIS": {
+          "score": 76,
+          "effort": 2,
+          "comment": "Samuel takes part thoughtfully in debates; written answers would benefit from a clearer conclusion. Next step: review notes the evening after each lesson."
+        },
+        "GEO": {
+          "score": 65,
+          "effort": 2,
+          "comment": "Samuel interprets graphs accurately; extended answers need more place-specific detail. Next step: add more detail and evidence to extended answers."
+        },
+        "SPA": {
+          "score": 73,
+          "effort": 2,
+          "comment": "Samuel understands spoken Spanish well and is building vocabulary steadily. Next step: add more detail and evidence to extended answers."
+        },
+        "CMP": {
+          "score": 74,
+          "effort": 2,
+          "comment": "Samuel works carefully; next step is to plan programs before starting to type. Next step: review notes the evening after each lesson."
+        },
+        "ART": {
+          "score": 76,
+          "effort": 2,
+          "comment": "Samuel researches artists well; final pieces would gain from more risk-taking. Next step: add more detail and evidence to extended answers."
+        },
+        "PE": {
+          "score": 74,
+          "effort": 2,
+          "comment": "Samuel works well in a team; fitness scores have improved this term. Next step: add more detail and evidence to extended answers."
+        }
+      },
+      "tutorComment": "Samuel has settled well into Year 9 and is making steady progress across subjects, with Mathematics the strongest. The next step is to bring the same focus to every lesson.",
+      "headComment": "A solid term with clear areas to build on.",
+      "targets": [
+        "Hand homework in on the day it is due",
+        "Ask for help in lessons as soon as something is unclear"
+      ]
+    },
+    {
+      "id": "9H-23",
+      "name": "Lily Chambers",
+      "firstName": "Lily",
+      "guardian": {
+        "name": "Mr Chambers",
+        "email": "lily.family@example.com"
+      },
+      "attendance": {
+        "present": 142,
+        "absent": 4,
+        "late": 0
+      },
+      "previousAverage": 49.2,
+      "results": {
+        "ENG": {
+          "score": 50,
+          "effort": 3,
+          "comment": "Lily understands the texts studied but answers are often brief and need more evidence from the text. Next step: complete every homework and ask for help early."
+        },
+        "MAT": {
+          "score": 59,
+          "effort": 2,
+          "comment": "Lily is secure with ratio and proportion and is now working accurately on linear graphs. Next step: check work carefully before handing it in."
+        },
+        "SCI": {
+          "score": 48,
+          "effort": 3,
+          "comment": "Lily enjoys practical work but conclusions are often missing from write-ups. Next step: attend the Thursday subject clinic until half term."
+        },
+        "HIS": {
+          "score": 39,
+          "effort": 3,
+          "comment": "Lily has not always completed homework, which has left gaps in knowledge. Next step: attend the Thursday subject clinic until half term."
+        },
+        "GEO": {
+          "score": 42,
+          "effort": 4,
+          "comment": "Lily is often distracted in lessons, and classwork is incomplete as a result. Next step: attend the Thursday subject clinic until half term."
+        },
+        "SPA": {
+          "score": 46,
+          "effort": 3,
+          "comment": "Lily is reluctant to speak in class, though written comprehension is improving. Next step: attend the Thursday subject clinic until half term."
+        },
+        "CMP": {
+          "score": 36,
+          "effort": 3,
+          "comment": "Lily finds programming frustrating at times and gives up quickly on errors. Next step: learn the key vocabulary list for each topic."
+        },
+        "ART": {
+          "score": 55,
+          "effort": 3,
+          "comment": "Lily works with care and the still-life studies show developing control of tone. Next step: review notes the evening after each lesson."
+        },
+        "PE": {
+          "score": 50,
+          "effort": 4,
+          "comment": "Lily has missed kit on several occasions, which has limited participation. Next step: learn the key vocabulary list for each topic."
+        }
+      },
+      "tutorComment": "Lily has had a mixed term. There are real positives, especially in Mathematics, but homework and organisation need attention so that progress is more even.",
+      "headComment": "We will work with you on the targets above next term.",
+      "targets": [
+        "Use the planner every day and check it with a parent each Sunday",
+        "Attend Tuesday homework club until half term"
+      ]
+    },
+    {
+      "id": "9H-24",
+      "name": "Daniel Ferreira",
+      "firstName": "Daniel",
+      "guardian": {
+        "name": "Dr Ferreira",
+        "email": "daniel.family@example.com"
+      },
+      "attendance": {
+        "present": 144,
+        "absent": 2,
+        "late": 0
+      },
+      "previousAverage": 74,
+      "results": {
+        "ENG": {
+          "score": 84,
+          "effort": 1,
+          "comment": "Daniel writes with real control: the persuasive letter on school uniform was one of the strongest in the class. Next step: take on the extension tasks in every lesson."
+        },
+        "MAT": {
+          "score": 60,
+          "effort": 2,
+          "comment": "Daniel is secure with ratio and proportion and is now working accurately on linear graphs. Next step: check work carefully before handing it in."
+        },
+        "SCI": {
+          "score": 61,
+          "effort": 2,
+          "comment": "Daniel is working well in practicals and records results accurately. Next step: review notes the evening after each lesson."
+        },
+        "HIS": {
+          "score": 72,
+          "effort": 2,
+          "comment": "Daniel has a good knowledge of the period and is improving at comparing interpretations. Next step: add more detail and evidence to extended answers."
+        },
+        "GEO": {
+          "score": 62,
+          "effort": 2,
+          "comment": "Daniel interprets graphs accurately; extended answers need more place-specific detail. Next step: add more detail and evidence to extended answers."
+        },
+        "SPA": {
+          "score": 64,
+          "effort": 2,
+          "comment": "Daniel understands spoken Spanish well and is building vocabulary steadily. Next step: check work carefully before handing it in."
+        },
+        "CMP": {
+          "score": 75,
+          "effort": 2,
+          "comment": "Daniel is making good progress with Python and can now use loops and conditions confidently. Next step: review notes the evening after each lesson."
+        },
+        "ART": {
+          "score": 83,
+          "effort": 1,
+          "comment": "Daniel produced an outstanding lino print in the printmaking unit. Next step: take on the extension tasks in every lesson."
+        },
+        "PE": {
+          "score": 75,
+          "effort": 2,
+          "comment": "Daniel works well in a team; fitness scores have improved this term. Next step: check work carefully before handing it in."
+        }
+      },
+      "tutorComment": "Daniel has settled well into Year 9 and is making steady progress across subjects, with English the strongest. The next step is to bring the same focus to every lesson.",
+      "headComment": "A solid term with clear areas to build on.",
+      "targets": [
+        "Hand homework in on the day it is due",
+        "Ask for help in lessons as soon as something is unclear"
+      ]
+    }
+  ]
+}

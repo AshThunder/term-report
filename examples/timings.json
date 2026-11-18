@@ -1,0 +1,14 @@
+{
+  "note": "Measured on the machine that last ran npm run make; for scale, not a benchmark.",
+  "node": "v22.14.0",
+  "ashcombe-park-9h": {
+    "pupils": 24,
+    "certificates": 14,
+    "batchMs": 7569
+  },
+  "colegio-altamira-1eso-b": {
+    "pupils": 10,
+    "certificates": 6,
+    "batchMs": 3342
+  }
+}

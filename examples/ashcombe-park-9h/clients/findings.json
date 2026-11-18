@@ -1,0 +1,348 @@
+{
+  "outlook.html": {
+    "version": 1,
+    "client": "outlook",
+    "variant": "desktop",
+    "dark": false,
+    "width": 820,
+    "ready": "incomplete",
+    "elements": "0.3.0",
+    "runtime": "NSZBLS0qlsNmX/1fyiKg7y7mZp6sw9+BBIi4PH6ZyPI=",
+    "models": "MlrIlO6EOKUp6QGv3WCPdx6d1x9Bv8P3cick6pOBewk=",
+    "browser": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "approximate": true,
+    "removed": [
+      {
+        "what": "border-radius",
+        "count": 2
+      }
+    ],
+    "missing": [
+      {
+        "kind": "font",
+        "family": "Georgia"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Arial",
+        "verified": "widths"
+      }
+    ],
+    "diagnostics": [],
+    "error": null
+  },
+  "gmail.html": {
+    "version": 1,
+    "client": "gmail",
+    "variant": "desktop",
+    "dark": false,
+    "width": 820,
+    "ready": "incomplete",
+    "elements": "0.3.0",
+    "runtime": "NSZBLS0qlsNmX/1fyiKg7y7mZp6sw9+BBIi4PH6ZyPI=",
+    "models": "MlrIlO6EOKUp6QGv3WCPdx6d1x9Bv8P3cick6pOBewk=",
+    "browser": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "approximate": false,
+    "removed": [
+      {
+        "what": "selectors Gmail doesn't support",
+        "count": 2
+      },
+      {
+        "what": "overflow-wrap (inline)",
+        "count": 1
+      }
+    ],
+    "missing": [
+      {
+        "kind": "font",
+        "family": "Georgia"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Arial",
+        "verified": "widths"
+      }
+    ],
+    "diagnostics": [],
+    "error": null
+  },
+  "gmail.mac.html": {
+    "version": 1,
+    "client": "gmail",
+    "variant": "desktop",
+    "dark": false,
+    "width": 820,
+    "ready": "ok",
+    "elements": "0.3.0",
+    "runtime": "NSZBLS0qlsNmX/1fyiKg7y7mZp6sw9+BBIi4PH6ZyPI=",
+    "models": "MlrIlO6EOKUp6QGv3WCPdx6d1x9Bv8P3cick6pOBewk=",
+    "browser": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "approximate": false,
+    "removed": [
+      {
+        "what": "selectors Gmail doesn't support",
+        "count": 2
+      },
+      {
+        "what": "overflow-wrap (inline)",
+        "count": 1
+      }
+    ],
+    "missing": [],
+    "fonts": [
+      {
+        "family": "Arial",
+        "verified": "widths"
+      },
+      {
+        "family": "Source Serif Pro",
+        "verified": "present"
+      },
+      {
+        "family": "Inter",
+        "verified": "present"
+      }
+    ],
+    "diagnostics": [],
+    "error": null
+  },
+  "apple-mail.html": {
+    "version": 1,
+    "client": "apple-mail",
+    "variant": "desktop",
+    "dark": false,
+    "width": 820,
+    "ready": "incomplete",
+    "elements": "0.3.0",
+    "runtime": "NSZBLS0qlsNmX/1fyiKg7y7mZp6sw9+BBIi4PH6ZyPI=",
+    "models": "MlrIlO6EOKUp6QGv3WCPdx6d1x9Bv8P3cick6pOBewk=",
+    "browser": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "approximate": false,
+    "removed": [
+      {
+        "what": "word-break: break-word as overflow-wrap (Mail keeps words whole when sizing)",
+        "count": 1
+      }
+    ],
+    "missing": [
+      {
+        "kind": "font",
+        "family": "Georgia"
+      },
+      {
+        "kind": "font",
+        "family": "Helvetica Neue"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Helvetica",
+        "verified": "widths"
+      },
+      {
+        "family": "Times New Roman",
+        "verified": "widths"
+      }
+    ],
+    "diagnostics": [],
+    "error": null
+  },
+  "apple-mail.iphone.html": {
+    "version": 1,
+    "client": "apple-mail",
+    "variant": "phone",
+    "dark": false,
+    "width": 393,
+    "ready": "incomplete",
+    "elements": "0.3.0",
+    "runtime": "NSZBLS0qlsNmX/1fyiKg7y7mZp6sw9+BBIi4PH6ZyPI=",
+    "models": "MlrIlO6EOKUp6QGv3WCPdx6d1x9Bv8P3cick6pOBewk=",
+    "browser": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "approximate": false,
+    "removed": [
+      {
+        "what": "word-break: break-word as overflow-wrap (Mail keeps words whole when sizing)",
+        "count": 1
+      }
+    ],
+    "missing": [
+      {
+        "kind": "font",
+        "family": "Georgia"
+      },
+      {
+        "kind": "font",
+        "family": "Helvetica Neue"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Helvetica",
+        "verified": "widths"
+      },
+      {
+        "family": "Times New Roman",
+        "verified": "widths"
+      }
+    ],
+    "diagnostics": [],
+    "error": null
+  },
+  "apple-mail.dark.html": {
+    "version": 1,
+    "client": "apple-mail",
+    "variant": "desktop",
+    "dark": true,
+    "width": 820,
+    "ready": "incomplete",
+    "elements": "0.3.0",
+    "runtime": "NSZBLS0qlsNmX/1fyiKg7y7mZp6sw9+BBIi4PH6ZyPI=",
+    "models": "MlrIlO6EOKUp6QGv3WCPdx6d1x9Bv8P3cick6pOBewk=",
+    "browser": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "approximate": false,
+    "removed": [
+      {
+        "what": "word-break: break-word as overflow-wrap (Mail keeps words whole when sizing)",
+        "count": 1
+      }
+    ],
+    "missing": [
+      {
+        "kind": "font",
+        "family": "Georgia"
+      },
+      {
+        "kind": "font",
+        "family": "Helvetica Neue"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Helvetica",
+        "verified": "widths"
+      },
+      {
+        "family": "Times New Roman",
+        "verified": "widths"
+      }
+    ],
+    "diagnostics": [],
+    "error": null
+  },
+  "apple-mail.iphone.dark.html": {
+    "version": 1,
+    "client": "apple-mail",
+    "variant": "phone",
+    "dark": true,
+    "width": 393,
+    "ready": "incomplete",
+    "elements": "0.3.0",
+    "runtime": "NSZBLS0qlsNmX/1fyiKg7y7mZp6sw9+BBIi4PH6ZyPI=",
+    "models": "MlrIlO6EOKUp6QGv3WCPdx6d1x9Bv8P3cick6pOBewk=",
+    "browser": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "approximate": false,
+    "removed": [
+      {
+        "what": "word-break: break-word as overflow-wrap (Mail keeps words whole when sizing)",
+        "count": 1
+      }
+    ],
+    "missing": [
+      {
+        "kind": "font",
+        "family": "Georgia"
+      },
+      {
+        "kind": "font",
+        "family": "Helvetica Neue"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Helvetica",
+        "verified": "widths"
+      },
+      {
+        "family": "Times New Roman",
+        "verified": "widths"
+      }
+    ],
+    "diagnostics": [],
+    "error": null
+  },
+  "gmail-app.html": {
+    "version": 1,
+    "client": "gmail-app",
+    "variant": "phone",
+    "dark": false,
+    "width": 380,
+    "ready": "ok",
+    "elements": null,
+    "runtime": "NSZBLS0qlsNmX/1fyiKg7y7mZp6sw9+BBIi4PH6ZyPI=",
+    "models": "MlrIlO6EOKUp6QGv3WCPdx6d1x9Bv8P3cick6pOBewk=",
+    "browser": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "approximate": true,
+    "removed": [
+      {
+        "what": "selectors Gmail doesn't support",
+        "count": 2
+      },
+      {
+        "what": "overflow-wrap (inline)",
+        "count": 1
+      }
+    ],
+    "missing": [],
+    "fonts": [],
+    "diagnostics": [],
+    "error": null
+  },
+  "gmail-app.iphone.html": {
+    "version": 1,
+    "client": "gmail-app",
+    "variant": "phone",
+    "dark": false,
+    "width": 345,
+    "ready": "incomplete",
+    "elements": null,
+    "runtime": "NSZBLS0qlsNmX/1fyiKg7y7mZp6sw9+BBIi4PH6ZyPI=",
+    "models": "MlrIlO6EOKUp6QGv3WCPdx6d1x9Bv8P3cick6pOBewk=",
+    "browser": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "approximate": true,
+    "removed": [
+      {
+        "what": "selectors Gmail doesn't support",
+        "count": 2
+      },
+      {
+        "what": "overflow-wrap (inline)",
+        "count": 1
+      }
+    ],
+    "missing": [
+      {
+        "kind": "font",
+        "family": "Georgia"
+      },
+      {
+        "kind": "font",
+        "family": "Helvetica Neue"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Times New Roman",
+        "verified": "widths"
+      },
+      {
+        "family": "Helvetica",
+        "verified": "widths"
+      }
+    ],
+    "diagnostics": [],
+    "error": null
+  }
+}

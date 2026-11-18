@@ -1,0 +1,37 @@
+{
+  "name": "term-report",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "vitest run",
+    "check": "tsx scripts/check.tsx",
+    "make": "tsx scripts/make.tsx",
+    "shots": "tsx scripts/shots.tsx",
+    "typecheck": "tsc"
+  },
+  "license": "MIT",
+  "description": "One class file in: parent emails, web reports, multi-page report card PDFs, award certificates and a class mark sheet out. Built with Hyper Elements.",
+  "dependencies": {
+    "@hyper-elements/cli": "^0.2.10",
+    "@hyper-elements/email-clients": "^0.4.16",
+    "@hyper-elements/lint": "^0.1.7",
+    "@hyper-elements/react": "~0.4.8",
+    "@react-pdf/renderer": "^4.9.0",
+    "@resvg/resvg-js": "^2.6.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "satori": "^0.33.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "playwright-core": "^1.65.1",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.0"
+  },
+  "type": "module",
+  "private": "true",
+  "engines": {
+    "node": ">=20"
+  }
+}

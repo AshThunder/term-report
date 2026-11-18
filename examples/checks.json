@@ -1,0 +1,32 @@
+[
+  {
+    "file": "data/ashcombe-park-9h.json",
+    "pass": true,
+    "artefactsChecked": 87,
+    "errors": 0,
+    "warnings": 0,
+    "dataIssues": [],
+    "notesByCode": {
+      "email/outlook-degraded": 192,
+      "email/degraded": 24,
+      "email/phone-styles": 24,
+      "email/lint-text-size": 408,
+      "page/lint-text-size": 864
+    }
+  },
+  {
+    "file": "data/colegio-altamira-1eso-b.json",
+    "pass": true,
+    "artefactsChecked": 37,
+    "errors": 0,
+    "warnings": 0,
+    "dataIssues": [],
+    "notesByCode": {
+      "email/outlook-degraded": 80,
+      "email/degraded": 10,
+      "email/phone-styles": 10,
+      "email/lint-text-size": 170,
+      "page/lint-text-size": 360
+    }
+  }
+]

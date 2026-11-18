@@ -1,0 +1,884 @@
+{
+  "school": {
+    "name": "Colegio Altamira",
+    "monogram": "CA",
+    "address": [
+      "Carrer de la Mar, 41",
+      "46011 València",
+      "España"
+    ],
+    "website": "https://colegioaltamira.example",
+    "email": "secretaria@colegioaltamira.example",
+    "phone": "963 55 01 28",
+    "accent": "#8A3B2E",
+    "head": {
+      "name": "Dña. Rosa Climent",
+      "title": "Directora"
+    },
+    "portalUrl": "https://familias.colegioaltamira.example/boletines"
+  },
+  "settings": {
+    "locale": "es-ES",
+    "scale": {
+      "max": 10,
+      "decimals": 1,
+      "suffix": "",
+      "bands": [
+        {
+          "min": 9,
+          "grade": "SB",
+          "label": "Sobresaliente"
+        },
+        {
+          "min": 7,
+          "grade": "NT",
+          "label": "Notable"
+        },
+        {
+          "min": 6,
+          "grade": "BI",
+          "label": "Bien"
+        },
+        {
+          "min": 5,
+          "grade": "SU",
+          "label": "Suficiente"
+        },
+        {
+          "min": 0,
+          "grade": "IN",
+          "label": "Insuficiente"
+        }
+      ]
+    },
+    "effort": [
+      "Excelente",
+      "Adecuado",
+      "Irregular",
+      "Insuficiente"
+    ]
+  },
+  "labels": {
+    "termReport": "Boletín de notas",
+    "reportFor": "Boletín de {name}",
+    "pupil": "Alumno/a",
+    "pupilNo": "N.º de alumno",
+    "className": "Grupo",
+    "tutor": "Tutor/a",
+    "term": "Trimestre",
+    "reportDate": "Fecha",
+    "attendance": "Asistencia",
+    "present": "Sesiones asistidas",
+    "absent": "Faltas",
+    "late": "Retrasos",
+    "average": "Nota media",
+    "classAverage": "Media del grupo",
+    "subject": "Materia",
+    "teacher": "Profesor/a",
+    "result": "Nota",
+    "grade": "Calificación",
+    "effort": "Actitud",
+    "comment": "Observaciones",
+    "subjects": "Materias",
+    "tutorComment": "Comentario del tutor/a",
+    "headComment": "Dirección",
+    "targets": "Objetivos para el próximo trimestre",
+    "dates": "Próximas fechas",
+    "awards": "Reconocimientos",
+    "gradingKey": "Escala de calificación",
+    "effortKey": "Actitud",
+    "greeting": "Estimada familia de {name}:",
+    "readyLine": "El boletín del {term} de {name} ya está disponible.",
+    "openReport": "Ver el boletín completo",
+    "pdfAttached": "Adjuntamos el boletín en PDF.",
+    "questions": "Para cualquier consulta, responda a este correo o escriba a {email}.",
+    "signedBy": "Firma",
+    "page": "Página",
+    "of": "de",
+    "awardTo": "Se concede a",
+    "awardedOn": "{date}",
+    "certificate": "Diploma",
+    "classOverview": "Acta de evaluación",
+    "pupilsCount": "{count} alumnos",
+    "topSubject": "Mejor materia",
+    "strongest": "Puntos fuertes",
+    "noAwards": "Sin reconocimientos este trimestre",
+    "sessionsOf": "{present} de {total}",
+    "improvedBy": "+{points} puntos respecto al trimestre anterior",
+    "keyDates": "Fechas",
+    "parentsPortal": "Portal de familias"
+  },
+  "term": {
+    "name": "primer trimestre 2026-27",
+    "start": "2026-09-08",
+    "end": "2026-12-22",
+    "reportDate": "2026-12-18",
+    "sessions": 312,
+    "nextTerm": "2027-01-08",
+    "dates": [
+      {
+        "date": "2027-01-08",
+        "label": "Comienzo del segundo trimestre"
+      },
+      {
+        "date": "2027-01-19",
+        "label": "Reuniones con las familias, de 17 a 19 h"
+      }
+    ]
+  },
+  "class": {
+    "name": "1.º ESO B",
+    "year": "1.º ESO",
+    "tutor": "D. Javier Sanchis"
+  },
+  "subjects": [
+    {
+      "code": "LEN",
+      "name": "Lengua Castellana y Literatura",
+      "teacher": "Dña. Pilar Ortega"
+    },
+    {
+      "code": "MAT",
+      "name": "Matemáticas",
+      "teacher": "D. Javier Sanchis"
+    },
+    {
+      "code": "ING",
+      "name": "Inglés",
+      "teacher": "Ms. Claire Duffy"
+    },
+    {
+      "code": "GH",
+      "name": "Geografía e Historia",
+      "teacher": "D. Andrés Boix"
+    },
+    {
+      "code": "BG",
+      "name": "Biología y Geología",
+      "teacher": "Dña. Marta Ferrer"
+    },
+    {
+      "code": "VAL",
+      "name": "Valenciano",
+      "teacher": "Dña. Empar Llorens"
+    },
+    {
+      "code": "EF",
+      "name": "Educación Física",
+      "teacher": "D. Sergio Calvo"
+    },
+    {
+      "code": "MUS",
+      "name": "Música",
+      "teacher": "Dña. Inés Navarro"
+    },
+    {
+      "code": "TEC",
+      "name": "Tecnología",
+      "teacher": "D. Rubén Gil"
+    }
+  ],
+  "awards": [
+    {
+      "code": "TOP",
+      "rule": "subject-top",
+      "title": "Mención de honor",
+      "minScore": 9,
+      "description": "Por la mejor calificación de {class} en {subject}."
+    },
+    {
+      "code": "ATT",
+      "rule": "full-attendance",
+      "title": "Asistencia perfecta",
+      "description": "Por asistir a todas las sesiones del trimestre con puntualidad."
+    },
+    {
+      "code": "BEST",
+      "rule": "top-overall",
+      "title": "Premio al mejor expediente",
+      "description": "Por la nota media más alta de {class}."
+    }
+  ],
+  "pupils": [
+    {
+      "id": "1B-01",
+      "name": "Lucía Martínez Soler",
+      "firstName": "Lucía",
+      "guardian": {
+        "name": "Familia de Lucía",
+        "email": "familia.lucia@example.com"
+      },
+      "attendance": {
+        "present": 302,
+        "absent": 10,
+        "late": 1
+      },
+      "previousAverage": null,
+      "results": {
+        "LEN": {
+          "score": 5.7,
+          "effort": 2,
+          "comment": "Lucía progresa de forma constante en Lengua Castellana y Literatura y su trabajo en clase es correcto. Le recomendamos repasar cada tarde lo trabajado en clase."
+        },
+        "MAT": {
+          "score": 6.3,
+          "effort": 2,
+          "comment": "Lucía progresa de forma constante en Matemáticas y su trabajo en clase es correcto. Le recomendamos repasar cada tarde lo trabajado en clase."
+        },
+        "ING": {
+          "score": 7.7,
+          "effort": 2,
+          "comment": "Lucía progresa de forma constante en Inglés y su trabajo en clase es correcto. Le recomendamos repasar cada tarde lo trabajado en clase."
+        },
+        "GH": {
+          "score": 8,
+          "effort": 1,
+          "comment": "Lucía trabaja con rigor y obtiene resultados excelentes en Geografía e Historia. Debe seguir así y asumir los retos de ampliación."
+        },
+        "BG": {
+          "score": 6.5,
+          "effort": 2,
+          "comment": "Lucía muestra interés por Biología y Geología; los resultados son buenos y pueden mejorar con más estudio diario. Puede mejorar cuidando la presentación de los ejercicios."
+        },
+        "VAL": {
+          "score": 7.4,
+          "effort": 2,
+          "comment": "Lucía muestra interés por Valenciano; los resultados son buenos y pueden mejorar con más estudio diario. Puede mejorar cuidando la presentación de los ejercicios."
+        },
+        "EF": {
+          "score": 6.2,
+          "effort": 2,
+          "comment": "Lucía muestra interés por Educación Física; los resultados son buenos y pueden mejorar con más estudio diario. Le recomendamos repasar cada tarde lo trabajado en clase."
+        },
+        "MUS": {
+          "score": 7.1,
+          "effort": 2,
+          "comment": "Lucía progresa de forma constante en Música y su trabajo en clase es correcto. Puede mejorar cuidando la presentación de los ejercicios."
+        },
+        "TEC": {
+          "score": 6.4,
+          "effort": 2,
+          "comment": "Lucía progresa de forma constante en Tecnología y su trabajo en clase es correcto. Puede mejorar cuidando la presentación de los ejercicios."
+        }
+      },
+      "tutorComment": "Lucía se ha adaptado bien a la ESO y avanza en todas las materias, sobre todo en Geografía e Historia. Debe mantener la constancia.",
+      "headComment": "Buen trimestre; seguimos trabajando.",
+      "targets": [
+        "Usar la agenda a diario",
+        "Repasar cada tarde lo trabajado en clase"
+      ]
+    },
+    {
+      "id": "1B-02",
+      "name": "Hugo Navarro Peris",
+      "firstName": "Hugo",
+      "guardian": {
+        "name": "Familia de Hugo",
+        "email": "familia.hugo@example.com"
+      },
+      "attendance": {
+        "present": 305,
+        "absent": 7,
+        "late": 1
+      },
+      "previousAverage": null,
+      "results": {
+        "LEN": {
+          "score": 7.2,
+          "effort": 2,
+          "comment": "Hugo progresa de forma constante en Lengua Castellana y Literatura y su trabajo en clase es correcto. Puede mejorar cuidando la presentación de los ejercicios."
+        },
+        "MAT": {
+          "score": 8.7,
+          "effort": 1,
+          "comment": "Hugo trabaja con rigor y obtiene resultados excelentes en Matemáticas. Le animamos a presentarse a la olimpiada de la materia."
+        },
+        "ING": {
+          "score": 7.1,
+          "effort": 2,
+          "comment": "Hugo muestra interés por Inglés; los resultados son buenos y pueden mejorar con más estudio diario. Puede mejorar cuidando la presentación de los ejercicios."
+        },
+        "GH": {
+          "score": 6.6,
+          "effort": 2,
+          "comment": "Hugo muestra interés por Geografía e Historia; los resultados son buenos y pueden mejorar con más estudio diario. Puede mejorar cuidando la presentación de los ejercicios."
+        },
+        "BG": {
+          "score": 7.1,
+          "effort": 2,
+          "comment": "Hugo progresa de forma constante en Biología y Geología y su trabajo en clase es correcto. Le recomendamos repasar cada tarde lo trabajado en clase."
+        },
+        "VAL": {
+          "score": 7.1,
+          "effort": 2,
+          "comment": "Hugo muestra interés por Valenciano; los resultados son buenos y pueden mejorar con más estudio diario. Le recomendamos repasar cada tarde lo trabajado en clase."
+        },
+        "EF": {
+          "score": 8.3,
+          "effort": 1,
+          "comment": "Excelente trimestre de Hugo en Educación Física: participa, razona y ayuda a sus compañeros. Le animamos a presentarse a la olimpiada de la materia."
+        },
+        "MUS": {
+          "score": 6.4,
+          "effort": 2,
+          "comment": "Hugo muestra interés por Música; los resultados son buenos y pueden mejorar con más estudio diario. Puede mejorar cuidando la presentación de los ejercicios."
+        },
+        "TEC": {
+          "score": 8.1,
+          "effort": 1,
+          "comment": "Hugo trabaja con rigor y obtiene resultados excelentes en Tecnología. Le animamos a presentarse a la olimpiada de la materia."
+        }
+      },
+      "tutorComment": "Hugo se ha adaptado bien a la ESO y avanza en todas las materias, sobre todo en Matemáticas. Debe mantener la constancia.",
+      "headComment": "Buen trimestre; seguimos trabajando.",
+      "targets": [
+        "Usar la agenda a diario",
+        "Repasar cada tarde lo trabajado en clase"
+      ]
+    },
+    {
+      "id": "1B-03",
+      "name": "Martina Ferrer Gil",
+      "firstName": "Martina",
+      "guardian": {
+        "name": "Familia de Martina",
+        "email": "familia.martina@example.com"
+      },
+      "attendance": {
+        "present": 312,
+        "absent": 0,
+        "late": 0
+      },
+      "previousAverage": null,
+      "results": {
+        "LEN": {
+          "score": 5,
+          "effort": 3,
+          "comment": "Martina necesita dedicar más tiempo a Lengua Castellana y Literatura: el último examen no reflejó lo trabajado en clase. Le conviene asistir al refuerzo de los martes."
+        },
+        "MAT": {
+          "score": 4.3,
+          "effort": 3,
+          "comment": "En Matemáticas, Martina debe entregar las tareas a tiempo y repasar los contenidos básicos. Le conviene asistir al refuerzo de los martes."
+        },
+        "ING": {
+          "score": 5.1,
+          "effort": 3,
+          "comment": "Martina necesita dedicar más tiempo a Inglés: el último examen no reflejó lo trabajado en clase. Le conviene asistir al refuerzo de los martes."
+        },
+        "GH": {
+          "score": 7,
+          "effort": 2,
+          "comment": "Martina muestra interés por Geografía e Historia; los resultados son buenos y pueden mejorar con más estudio diario. Le recomendamos repasar cada tarde lo trabajado en clase."
+        },
+        "BG": {
+          "score": 4.9,
+          "effort": 3,
+          "comment": "En Biología y Geología, Martina debe entregar las tareas a tiempo y repasar los contenidos básicos. Es imprescindible llevar la agenda al día y entregar las tareas."
+        },
+        "VAL": {
+          "score": 6.2,
+          "effort": 2,
+          "comment": "Martina muestra interés por Valenciano; los resultados son buenos y pueden mejorar con más estudio diario. Le recomendamos repasar cada tarde lo trabajado en clase."
+        },
+        "EF": {
+          "score": 6.2,
+          "effort": 2,
+          "comment": "Martina muestra interés por Educación Física; los resultados son buenos y pueden mejorar con más estudio diario. Le recomendamos repasar cada tarde lo trabajado en clase."
+        },
+        "MUS": {
+          "score": 5.5,
+          "effort": 2,
+          "comment": "Martina progresa de forma constante en Música y su trabajo en clase es correcto. Le recomendamos repasar cada tarde lo trabajado en clase."
+        },
+        "TEC": {
+          "score": 4.4,
+          "effort": 3,
+          "comment": "Martina necesita dedicar más tiempo a Tecnología: el último examen no reflejó lo trabajado en clase. Le conviene asistir al refuerzo de los martes."
+        }
+      },
+      "tutorComment": "Trimestre irregular para Martina. Hay aspectos positivos, como Geografía e Historia, pero es necesario mejorar la organización y el estudio en casa.",
+      "headComment": "Contamos con la familia para mejorar el próximo trimestre.",
+      "targets": [
+        "Asistir al refuerzo de los martes",
+        "Revisar la agenda con la familia cada semana"
+      ]
+    },
+    {
+      "id": "1B-04",
+      "name": "Pablo Ruiz Escrivá",
+      "firstName": "Pablo",
+      "guardian": {
+        "name": "Familia de Pablo",
+        "email": "familia.pablo@example.com"
+      },
+      "attendance": {
+        "present": 301,
+        "absent": 11,
+        "late": 0
+      },
+      "previousAverage": null,
+      "results": {
+        "LEN": {
+          "score": 3.3,
+          "effort": 3,
+          "comment": "Pablo necesita dedicar más tiempo a Lengua Castellana y Literatura: el último examen no reflejó lo trabajado en clase. Le conviene asistir al refuerzo de los martes."
+        },
+        "MAT": {
+          "score": 3.7,
+          "effort": 3,
+          "comment": "En Matemáticas, Pablo debe entregar las tareas a tiempo y repasar los contenidos básicos. Le conviene asistir al refuerzo de los martes."
+        },
+        "ING": {
+          "score": 3.8,
+          "effort": 3,
+          "comment": "Pablo necesita dedicar más tiempo a Inglés: el último examen no reflejó lo trabajado en clase. Es imprescindible llevar la agenda al día y entregar las tareas."
+        },
+        "GH": {
+          "score": 4.5,
+          "effort": 3,
+          "comment": "En Geografía e Historia, Pablo debe entregar las tareas a tiempo y repasar los contenidos básicos. Es imprescindible llevar la agenda al día y entregar las tareas."
+        },
+        "BG": {
+          "score": 5.5,
+          "effort": 2,
+          "comment": "Pablo muestra interés por Biología y Geología; los resultados son buenos y pueden mejorar con más estudio diario. Puede mejorar cuidando la presentación de los ejercicios."
+        },
+        "VAL": {
+          "score": 3.3,
+          "effort": 3,
+          "comment": "En Valenciano, Pablo debe entregar las tareas a tiempo y repasar los contenidos básicos. Es imprescindible llevar la agenda al día y entregar las tareas."
+        },
+        "EF": {
+          "score": 4.9,
+          "effort": 3,
+          "comment": "En Educación Física, Pablo debe entregar las tareas a tiempo y repasar los contenidos básicos. Es imprescindible llevar la agenda al día y entregar las tareas."
+        },
+        "MUS": {
+          "score": 5,
+          "effort": 3,
+          "comment": "Pablo necesita dedicar más tiempo a Música: el último examen no reflejó lo trabajado en clase. Le conviene asistir al refuerzo de los martes."
+        },
+        "TEC": {
+          "score": 3.5,
+          "effort": 3,
+          "comment": "En Tecnología, Pablo debe entregar las tareas a tiempo y repasar los contenidos básicos. Es imprescindible llevar la agenda al día y entregar las tareas."
+        }
+      },
+      "tutorComment": "Trimestre irregular para Pablo. Hay aspectos positivos, como Biología y Geología, pero es necesario mejorar la organización y el estudio en casa.",
+      "headComment": "Contamos con la familia para mejorar el próximo trimestre.",
+      "targets": [
+        "Asistir al refuerzo de los martes",
+        "Revisar la agenda con la familia cada semana"
+      ]
+    },
+    {
+      "id": "1B-05",
+      "name": "Valeria Moreno Bosch",
+      "firstName": "Valeria",
+      "guardian": {
+        "name": "Familia de Valeria",
+        "email": "familia.valeria@example.com"
+      },
+      "attendance": {
+        "present": 306,
+        "absent": 6,
+        "late": 0
+      },
+      "previousAverage": null,
+      "results": {
+        "LEN": {
+          "score": 6.8,
+          "effort": 2,
+          "comment": "Valeria progresa de forma constante en Lengua Castellana y Literatura y su trabajo en clase es correcto. Le recomendamos repasar cada tarde lo trabajado en clase."
+        },
+        "MAT": {
+          "score": 5.9,
+          "effort": 2,
+          "comment": "Valeria muestra interés por Matemáticas; los resultados son buenos y pueden mejorar con más estudio diario. Puede mejorar cuidando la presentación de los ejercicios."
+        },
+        "ING": {
+          "score": 8.2,
+          "effort": 1,
+          "comment": "Excelente trimestre de Valeria en Inglés: participa, razona y ayuda a sus compañeros. Debe seguir así y asumir los retos de ampliación."
+        },
+        "GH": {
+          "score": 7.6,
+          "effort": 2,
+          "comment": "Valeria progresa de forma constante en Geografía e Historia y su trabajo en clase es correcto. Puede mejorar cuidando la presentación de los ejercicios."
+        },
+        "BG": {
+          "score": 7.2,
+          "effort": 2,
+          "comment": "Valeria muestra interés por Biología y Geología; los resultados son buenos y pueden mejorar con más estudio diario. Le recomendamos repasar cada tarde lo trabajado en clase."
+        },
+        "VAL": {
+          "score": 9.2,
+          "effort": 1,
+          "comment": "Excelente trimestre de Valeria en Valenciano: participa, razona y ayuda a sus compañeros. Le animamos a presentarse a la olimpiada de la materia."
+        },
+        "EF": {
+          "score": 6.6,
+          "effort": 2,
+          "comment": "Valeria muestra interés por Educación Física; los resultados son buenos y pueden mejorar con más estudio diario. Puede mejorar cuidando la presentación de los ejercicios."
+        },
+        "MUS": {
+          "score": 6.6,
+          "effort": 2,
+          "comment": "Valeria muestra interés por Música; los resultados son buenos y pueden mejorar con más estudio diario. Le recomendamos repasar cada tarde lo trabajado en clase."
+        },
+        "TEC": {
+          "score": 6.9,
+          "effort": 2,
+          "comment": "Valeria progresa de forma constante en Tecnología y su trabajo en clase es correcto. Puede mejorar cuidando la presentación de los ejercicios."
+        }
+      },
+      "tutorComment": "Valeria se ha adaptado bien a la ESO y avanza en todas las materias, sobre todo en Valenciano. Debe mantener la constancia.",
+      "headComment": "Buen trimestre; seguimos trabajando.",
+      "targets": [
+        "Usar la agenda a diario",
+        "Repasar cada tarde lo trabajado en clase"
+      ]
+    },
+    {
+      "id": "1B-06",
+      "name": "Daniel Ibáñez Roig",
+      "firstName": "Daniel",
+      "guardian": {
+        "name": "Familia de Daniel",
+        "email": "familia.daniel@example.com"
+      },
+      "attendance": {
+        "present": 310,
+        "absent": 2,
+        "late": 0
+      },
+      "previousAverage": null,
+      "results": {
+        "LEN": {
+          "score": 7.7,
+          "effort": 2,
+          "comment": "Daniel progresa de forma constante en Lengua Castellana y Literatura y su trabajo en clase es correcto. Le recomendamos repasar cada tarde lo trabajado en clase."
+        },
+        "MAT": {
+          "score": 8.3,
+          "effort": 1,
+          "comment": "Excelente trimestre de Daniel en Matemáticas: participa, razona y ayuda a sus compañeros. Debe seguir así y asumir los retos de ampliación."
+        },
+        "ING": {
+          "score": 5.9,
+          "effort": 2,
+          "comment": "Daniel muestra interés por Inglés; los resultados son buenos y pueden mejorar con más estudio diario. Le recomendamos repasar cada tarde lo trabajado en clase."
+        },
+        "GH": {
+          "score": 7.8,
+          "effort": 2,
+          "comment": "Daniel muestra interés por Geografía e Historia; los resultados son buenos y pueden mejorar con más estudio diario. Puede mejorar cuidando la presentación de los ejercicios."
+        },
+        "BG": {
+          "score": 6.7,
+          "effort": 2,
+          "comment": "Daniel progresa de forma constante en Biología y Geología y su trabajo en clase es correcto. Puede mejorar cuidando la presentación de los ejercicios."
+        },
+        "VAL": {
+          "score": 7.6,
+          "effort": 2,
+          "comment": "Daniel progresa de forma constante en Valenciano y su trabajo en clase es correcto. Le recomendamos repasar cada tarde lo trabajado en clase."
+        },
+        "EF": {
+          "score": 6.7,
+          "effort": 2,
+          "comment": "Daniel progresa de forma constante en Educación Física y su trabajo en clase es correcto. Puede mejorar cuidando la presentación de los ejercicios."
+        },
+        "MUS": {
+          "score": 9.1,
+          "effort": 1,
+          "comment": "Excelente trimestre de Daniel en Música: participa, razona y ayuda a sus compañeros. Debe seguir así y asumir los retos de ampliación."
+        },
+        "TEC": {
+          "score": 6.2,
+          "effort": 2,
+          "comment": "Daniel muestra interés por Tecnología; los resultados son buenos y pueden mejorar con más estudio diario. Puede mejorar cuidando la presentación de los ejercicios."
+        }
+      },
+      "tutorComment": "Daniel se ha adaptado bien a la ESO y avanza en todas las materias, sobre todo en Música. Debe mantener la constancia.",
+      "headComment": "Buen trimestre; seguimos trabajando.",
+      "targets": [
+        "Usar la agenda a diario",
+        "Repasar cada tarde lo trabajado en clase"
+      ]
+    },
+    {
+      "id": "1B-07",
+      "name": "Carmen Llopis Vidal",
+      "firstName": "Carmen",
+      "guardian": {
+        "name": "Familia de Carmen",
+        "email": "familia.carmen@example.com"
+      },
+      "attendance": {
+        "present": 312,
+        "absent": 0,
+        "late": 0
+      },
+      "previousAverage": null,
+      "results": {
+        "LEN": {
+          "score": 8.3,
+          "effort": 1,
+          "comment": "Carmen trabaja con rigor y obtiene resultados excelentes en Lengua Castellana y Literatura. Debe seguir así y asumir los retos de ampliación."
+        },
+        "MAT": {
+          "score": 7,
+          "effort": 2,
+          "comment": "Carmen progresa de forma constante en Matemáticas y su trabajo en clase es correcto. Le recomendamos repasar cada tarde lo trabajado en clase."
+        },
+        "ING": {
+          "score": 8.6,
+          "effort": 1,
+          "comment": "Carmen trabaja con rigor y obtiene resultados excelentes en Inglés. Debe seguir así y asumir los retos de ampliación."
+        },
+        "GH": {
+          "score": 7.2,
+          "effort": 2,
+          "comment": "Carmen progresa de forma constante en Geografía e Historia y su trabajo en clase es correcto. Puede mejorar cuidando la presentación de los ejercicios."
+        },
+        "BG": {
+          "score": 7.2,
+          "effort": 2,
+          "comment": "Carmen progresa de forma constante en Biología y Geología y su trabajo en clase es correcto. Le recomendamos repasar cada tarde lo trabajado en clase."
+        },
+        "VAL": {
+          "score": 8.6,
+          "effort": 1,
+          "comment": "Carmen trabaja con rigor y obtiene resultados excelentes en Valenciano. Le animamos a presentarse a la olimpiada de la materia."
+        },
+        "EF": {
+          "score": 7.3,
+          "effort": 2,
+          "comment": "Carmen muestra interés por Educación Física; los resultados son buenos y pueden mejorar con más estudio diario. Le recomendamos repasar cada tarde lo trabajado en clase."
+        },
+        "MUS": {
+          "score": 7.7,
+          "effort": 2,
+          "comment": "Carmen progresa de forma constante en Música y su trabajo en clase es correcto. Le recomendamos repasar cada tarde lo trabajado en clase."
+        },
+        "TEC": {
+          "score": 7.8,
+          "effort": 2,
+          "comment": "Carmen muestra interés por Tecnología; los resultados son buenos y pueden mejorar con más estudio diario. Le recomendamos repasar cada tarde lo trabajado en clase."
+        }
+      },
+      "tutorComment": "Carmen ha completado un primer trimestre muy positivo en 1.º de ESO, con especial brillo en Inglés. Felicidades.",
+      "headComment": "Enhorabuena por el esfuerzo.",
+      "targets": [
+        "Leer un libro al mes de la biblioteca del centro",
+        "Participar en el concurso de matemáticas de primavera"
+      ]
+    },
+    {
+      "id": "1B-08",
+      "name": "Adrián Belda Castelló",
+      "firstName": "Adrián",
+      "guardian": {
+        "name": "Familia de Adrián",
+        "email": "familia.adrian@example.com"
+      },
+      "attendance": {
+        "present": 309,
+        "absent": 3,
+        "late": 0
+      },
+      "previousAverage": null,
+      "results": {
+        "LEN": {
+          "score": 7.1,
+          "effort": 2,
+          "comment": "Adrián progresa de forma constante en Lengua Castellana y Literatura y su trabajo en clase es correcto. Le recomendamos repasar cada tarde lo trabajado en clase."
+        },
+        "MAT": {
+          "score": 9.1,
+          "effort": 1,
+          "comment": "Excelente trimestre de Adrián en Matemáticas: participa, razona y ayuda a sus compañeros. Debe seguir así y asumir los retos de ampliación."
+        },
+        "ING": {
+          "score": 5.8,
+          "effort": 2,
+          "comment": "Adrián progresa de forma constante en Inglés y su trabajo en clase es correcto. Puede mejorar cuidando la presentación de los ejercicios."
+        },
+        "GH": {
+          "score": 7.4,
+          "effort": 2,
+          "comment": "Adrián progresa de forma constante en Geografía e Historia y su trabajo en clase es correcto. Le recomendamos repasar cada tarde lo trabajado en clase."
+        },
+        "BG": {
+          "score": 6.4,
+          "effort": 2,
+          "comment": "Adrián muestra interés por Biología y Geología; los resultados son buenos y pueden mejorar con más estudio diario. Puede mejorar cuidando la presentación de los ejercicios."
+        },
+        "VAL": {
+          "score": 6,
+          "effort": 2,
+          "comment": "Adrián muestra interés por Valenciano; los resultados son buenos y pueden mejorar con más estudio diario. Le recomendamos repasar cada tarde lo trabajado en clase."
+        },
+        "EF": {
+          "score": 7.2,
+          "effort": 2,
+          "comment": "Adrián muestra interés por Educación Física; los resultados son buenos y pueden mejorar con más estudio diario. Le recomendamos repasar cada tarde lo trabajado en clase."
+        },
+        "MUS": {
+          "score": 7.1,
+          "effort": 2,
+          "comment": "Adrián progresa de forma constante en Música y su trabajo en clase es correcto. Puede mejorar cuidando la presentación de los ejercicios."
+        },
+        "TEC": {
+          "score": 6.3,
+          "effort": 2,
+          "comment": "Adrián muestra interés por Tecnología; los resultados son buenos y pueden mejorar con más estudio diario. Puede mejorar cuidando la presentación de los ejercicios."
+        }
+      },
+      "tutorComment": "Adrián se ha adaptado bien a la ESO y avanza en todas las materias, sobre todo en Matemáticas. Debe mantener la constancia.",
+      "headComment": "Buen trimestre; seguimos trabajando.",
+      "targets": [
+        "Usar la agenda a diario",
+        "Repasar cada tarde lo trabajado en clase"
+      ]
+    },
+    {
+      "id": "1B-09",
+      "name": "Sara Domínguez Ortí",
+      "firstName": "Sara",
+      "guardian": {
+        "name": "Familia de Sara",
+        "email": "familia.sara@example.com"
+      },
+      "attendance": {
+        "present": 310,
+        "absent": 2,
+        "late": 0
+      },
+      "previousAverage": null,
+      "results": {
+        "LEN": {
+          "score": 4.2,
+          "effort": 3,
+          "comment": "Sara necesita dedicar más tiempo a Lengua Castellana y Literatura: el último examen no reflejó lo trabajado en clase. Le conviene asistir al refuerzo de los martes."
+        },
+        "MAT": {
+          "score": 6.2,
+          "effort": 2,
+          "comment": "Sara progresa de forma constante en Matemáticas y su trabajo en clase es correcto. Le recomendamos repasar cada tarde lo trabajado en clase."
+        },
+        "ING": {
+          "score": 6.2,
+          "effort": 2,
+          "comment": "Sara muestra interés por Inglés; los resultados son buenos y pueden mejorar con más estudio diario. Puede mejorar cuidando la presentación de los ejercicios."
+        },
+        "GH": {
+          "score": 6.3,
+          "effort": 2,
+          "comment": "Sara muestra interés por Geografía e Historia; los resultados son buenos y pueden mejorar con más estudio diario. Le recomendamos repasar cada tarde lo trabajado en clase."
+        },
+        "BG": {
+          "score": 3.8,
+          "effort": 3,
+          "comment": "Sara necesita dedicar más tiempo a Biología y Geología: el último examen no reflejó lo trabajado en clase. Le conviene asistir al refuerzo de los martes."
+        },
+        "VAL": {
+          "score": 4.1,
+          "effort": 3,
+          "comment": "Sara necesita dedicar más tiempo a Valenciano: el último examen no reflejó lo trabajado en clase. Le conviene asistir al refuerzo de los martes."
+        },
+        "EF": {
+          "score": 5.8,
+          "effort": 2,
+          "comment": "Sara progresa de forma constante en Educación Física y su trabajo en clase es correcto. Puede mejorar cuidando la presentación de los ejercicios."
+        },
+        "MUS": {
+          "score": 5.1,
+          "effort": 3,
+          "comment": "En Música, Sara debe entregar las tareas a tiempo y repasar los contenidos básicos. Le conviene asistir al refuerzo de los martes."
+        },
+        "TEC": {
+          "score": 5.5,
+          "effort": 2,
+          "comment": "Sara progresa de forma constante en Tecnología y su trabajo en clase es correcto. Le recomendamos repasar cada tarde lo trabajado en clase."
+        }
+      },
+      "tutorComment": "Trimestre irregular para Sara. Hay aspectos positivos, como Geografía e Historia, pero es necesario mejorar la organización y el estudio en casa.",
+      "headComment": "Contamos con la familia para mejorar el próximo trimestre.",
+      "targets": [
+        "Asistir al refuerzo de los martes",
+        "Revisar la agenda con la familia cada semana"
+      ]
+    },
+    {
+      "id": "1B-10",
+      "name": "Mateo García Ribes",
+      "firstName": "Mateo",
+      "guardian": {
+        "name": "Familia de Mateo",
+        "email": "familia.mateo@example.com"
+      },
+      "attendance": {
+        "present": 304,
+        "absent": 8,
+        "late": 1
+      },
+      "previousAverage": null,
+      "results": {
+        "LEN": {
+          "score": 5.2,
+          "effort": 3,
+          "comment": "En Lengua Castellana y Literatura, Mateo debe entregar las tareas a tiempo y repasar los contenidos básicos. Es imprescindible llevar la agenda al día y entregar las tareas."
+        },
+        "MAT": {
+          "score": 5.5,
+          "effort": 2,
+          "comment": "Mateo muestra interés por Matemáticas; los resultados son buenos y pueden mejorar con más estudio diario. Puede mejorar cuidando la presentación de los ejercicios."
+        },
+        "ING": {
+          "score": 5.6,
+          "effort": 2,
+          "comment": "Mateo progresa de forma constante en Inglés y su trabajo en clase es correcto. Puede mejorar cuidando la presentación de los ejercicios."
+        },
+        "GH": {
+          "score": 5.2,
+          "effort": 3,
+          "comment": "Mateo necesita dedicar más tiempo a Geografía e Historia: el último examen no reflejó lo trabajado en clase. Le conviene asistir al refuerzo de los martes."
+        },
+        "BG": {
+          "score": 5.8,
+          "effort": 2,
+          "comment": "Mateo muestra interés por Biología y Geología; los resultados son buenos y pueden mejorar con más estudio diario. Le recomendamos repasar cada tarde lo trabajado en clase."
+        },
+        "VAL": {
+          "score": 4.9,
+          "effort": 3,
+          "comment": "Mateo necesita dedicar más tiempo a Valenciano: el último examen no reflejó lo trabajado en clase. Es imprescindible llevar la agenda al día y entregar las tareas."
+        },
+        "EF": {
+          "score": 5.6,
+          "effort": 2,
+          "comment": "Mateo muestra interés por Educación Física; los resultados son buenos y pueden mejorar con más estudio diario. Puede mejorar cuidando la presentación de los ejercicios."
+        },
+        "MUS": {
+          "score": 5.6,
+          "effort": 2,
+          "comment": "Mateo progresa de forma constante en Música y su trabajo en clase es correcto. Puede mejorar cuidando la presentación de los ejercicios."
+        },
+        "TEC": {
+          "score": 6.2,
+          "effort": 2,
+          "comment": "Mateo progresa de forma constante en Tecnología y su trabajo en clase es correcto. Puede mejorar cuidando la presentación de los ejercicios."
+        }
+      },
+      "tutorComment": "Mateo se ha adaptado bien a la ESO y avanza en todas las materias, sobre todo en Tecnología. Debe mantener la constancia.",
+      "headComment": "Buen trimestre; seguimos trabajando.",
+      "targets": [
+        "Usar la agenda a diario",
+        "Repasar cada tarde lo trabajado en clase"
+      ]
+    }
+  ]
+}
